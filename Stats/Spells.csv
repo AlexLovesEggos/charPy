@@ -1,0 +1,580 @@
+Acid Splash,Conjuration,1 Action,60 Feet,Instantaneous,"V, S",0,"Artificer, Sorcerer, Wizard",Acid Splash
+Booming Blade,Evocation,1 Action,Self (5-foot radius),1 round,"S, M",0,"Artificer, Sorcerer, Warlock, Wizard",Booming Blade
+Create Bonfire,Conjuration,1 Action,60 Feet,"Concentration, up to 1 minute","V, S",0,"Artificer, Druid, Sorcerer, Warlock, Wizard",Create Bonfire
+Dancing Lights,Evocation,1 Action,120 feet,Concentration up to 1 minute,"V, S, M",0,"Artificer, Bard, Sorcerer, Wizard",Dancing Lights
+Fire Bolt,Evocation,1 Action,120 feet,Instantaneous,"V, S",0,"Artificer, Sorcerer, Wizard",Fire Bolt
+Frostbite,Evocation,1 Action,60 feet,Instantaneous,"V, S",0,"Artificer, Druid, Sorcerer, Warlock, Wizard",Frostbite
+Green-Flame Blade,Evocation,1 Action,Self (5-foot radius),Instantaneous,"S, M",0,"Artificer, Sorcerer, Warlock, Wizard",Green-Flame Blade
+Guidance,Divination,1 Action,Touch,Concentration up to 1 minute,"V, S",0,"Artificer, Cleric, Druid",Guidance
+Light,Evocation,1 Action,Touch,1 hour,"V, M",0,"Artificer, Bard, Cleric, Sorcerer, Wizard",Light
+Lightning Lure,Evocation,1 Action,Self (15-foot radius),Instantaneous,V,0,"Artificer, Sorcerer, Warlock, Wizard",Lightning Lure
+Mage Hand,Conjuration,1 Action,30 feet,1 minute,"V, S",0,"Artificer, Bard, Sorcerer, Warlock, Wizard",Mage Hand
+Magic Stone,Transmutation,1 Bonus Action,Touch,1 minute,"V, S",0,"Artificer, Druid, Warlock",Magic Stone
+Mending,Transmutation,1 Minute,Touch,Instantaneous,"V, S, M",0,"Artificer, Bard, Cleric, Druid, Sorcerer, Wizard",Mending
+Message,Transmutation,1 Action,120 feet,1 round,"V, S, M",0,"Artificer, Bard, Sorcerer, Wizard",Message
+Poison Spray,Conjuration,1 Action,10 feet,Instantaneous,"V, S",0,"Artificer, Druid, Sorcerer, Warlock, Wizard",Poison Spray
+Prestidigitation,Transmutation,1 Action,10 feet,Up to 1 hour,"V, S",0,"Artificer, Bard, Sorcerer, Warlock, Wizard",Prestidigitation
+Ray of Frost,Evocation,1 Action,60 feet,Instantaneous,"V, S",0,"Artificer, Sorcerer, Wizard",Ray of Frost
+Resistance,Abjuration,1 Action,Touch,Concentration up to 1 minute,"V, S, M",0,"Artificer, Cleric, Druid",Resistance
+Shocking Grasp,Evocation,1 Action,Touch,Instantaneous,"V, S",0,"Artificer, Sorcerer, Wizard",Shocking Grasp
+Spare the Dying,Necromancy,1 Action,Touch,Instantaneous,"V, S",0,"Artificer, Cleric",Spare the Dying
+Sword Burst,Conjuration,1 Action,Self (5-foot radius),Instantaneous,V,0,"Artificer, Sorcerer, Warlock, Wizard",Sword Burst
+Thorn Whip,Transmutation,1 Action,30 feet,Instantaneous,"V, S, M",0,"Artificer, Druid",Thorn Whip
+Thunderclap,Evocation,1 Action,Self (5-foot radius),Instantaneous,S,0,"Artificer, Artificer, Bard, Druid, Sorcerer, Warlock, Wizard",Thunderclap
+Blade Ward,Abjuration,1 Action,Self,1 round,"V, S",0,"Bard, Sorcerer, Warlock, Wizard",Blade Ward
+Friends,Enchantment,1 Action,Self,"Concentration, up to 1 minute","S, M",0,"Bard, Sorcerer, Warlock, Wizard",Friends
+Minor Illusion,Illusion,1 Action,30 feet,1 minute,"S, M",0,"Bard, Sorcerer, Warlock, Wizard",Minor Illusion
+True Strike,Divination,1 Action,30 feet,Concentration up to 1 round,S,0,"Bard, Sorcerer, Warlock, Wizard",True Strike
+Vicious Mockery,Enchantment,1 Action,60 feet,Instantaneous,V,0,Bard,Vicious Mockery
+Decompose (HB),Necromancy,1 Action,Touch,1 minute,"V, S",0,Cleric,Decompose (HB)
+Hand of Radiance (UA),Evocation,1 Action,5 feet,Instantaneous,"V, S",0,Cleric,Hand of Radiance (UA)
+Sacred Flame,Evocation,1 Action,60 feet,Instantaneous,"V, S",0,Cleric,Sacred Flame
+Thaumaturgy,Transmutation,1 Action,30 feet,Up to 1 minute,V,0,Cleric,Thaumaturgy
+Toll the Dead,Necromancy,1 Action,60 feet,Instantaneous,"V, S",0,"Cleric, Warlock, Wizard",Toll the Dead
+Virtue (UA),Abjuration,1 Action,Touch,1 round,"V, S",0,Cleric,Virtue (UA)
+Word of Radiance,Evocation,1 Action,5 feet,Instantaneous,"V, M",0,Cleric,Word of Radiance
+Control Flames,Transmutation,1 Action,60 Feet,Instantaneous or 1 hour,S,0,"Druid, Sorcerer, Wizard",Control Flames
+Druidcraft,Transmutation,1 Action,30 Feet,Instantaneous,"V, S",0,Druid,Druidcraft
+Gust,Transmutation,1 Action,30 feet,Instantaneous,"V, S",0,"Druid, Sorcerer, Wizard",Gust
+Infestation,Conjuration,1 Action,30 feet,Instantaneous,"V, S, M",0,"Druid, Sorcerer, Warlock, Wizard",Infestation
+Mold Earth,Transmutation,1 Action,30 feet,Instantaneous or 1 hour,S,0,"Druid, Sorcerer, Wizard",Mold Earth
+Primal Savagery,Transmutation,1 Action,Self,Self,S,0,Druid,Primal Savagery
+Produce Flame,Conjuration,1 Action,Self,10 minutes,"V, S",0,Druid,Produce Flame
+Shape Water,Transmutation,1 Action,30 feet,Instantaneous or 1 hour,S,0,"Druid, Sorcerer, Wizard",Shape Water
+Shillelagh,Transmutation,1 Bonus Action,Touch,1 minute,"V, S, M",0,Druid,Shillelagh
+Chill Touch,Necromancy,1 Action,120 feet,1 round,"V, S",0,"Sorcerer, Warlock, Wizard",Chill Touch
+Mind Sliver,Enchantment,1 Action,60 feet,1 round,V,0,"Sorcerer, Warlock, Wizard",Mind Sliver
+On/Off (UA),Transmutation T,1 Action,60 feet,Instantaneous,"V, S",0,"Sorcerer, Warlock, Wizard",On/Off (UA)
+Eldritch Blast,Evocation,1 Action,120 Feet,Instantaneous,"V, S",0,Warlock,Eldritch Blast
+Encode Thoughts,Enchantment,1 Action,Self,8 hours,S,0,Wizard,Encode Thoughts
+Sapping Sting,Necromancy D,1 Action,30 feet,Instantaneous,"V, S",0,Wizard,Sapping Sting
+Absorb Elements,Abjuration,1 Reaction,Self,1 round,S,1,"Artificer, Druid, Ranger, Sorcerer, Wizard",Absorb Elements
+Alarm,Abjuration,1 Minute R,30 feet,8 Hours,"V, S, M",1,"Artificer, Ranger, Wizard",Alarm
+Arcane Weapon (UA),Transmutation,1 Bonus Action,Self,"Concentration, up to 1 hour","V, S",1,Artificer,Arcane Weapon (UA)
+Catapult,Transmutation,1 Action,60 feet,Instantaneous,S,1,"Artificer, Sorcerer, Wizard",Catapult
+Cure Wounds,Evocation,1 Action,Touch,Instantaneous,"V, S",1,"Artificer, Bard, Cleric, Druid, Paladin, Ranger",Cure Wounds
+Detect Magic,Divination,1 Action R,Self,"Concentration, up to 10 minutes","V, S",1,"Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard",Detect Magic
+Disguise Self,Illusion,1 Action,Self,1 hour,"V, S",1,"Artificer, Bard, Sorcerer, Wizard",Disguise Self
+Expeditious Retreat,Transmutation,1 Bonus Action,Self,"Concentration, up to 10 minutes","V, S",1,"Artificer, Sorcerer, Warlock, Wizard",Expeditious Retreat
+Faerie Fire,Evocation,1 Action,60 feet,"Concentration, up to 1 minute",V,1,"Artificer, Bard, Druid",Faerie Fire
+False Life,Necromancy,1 Action,Self,1 hour,"V, S, M",1,"Artificer, Sorcerer, Wizard",False Life
+Feather Fall,Transmutation,1 Reaction,60 feet,1 minute,"V, M",1,"Artificer, Bard, Sorcerer, Wizard",Feather Fall
+Grease,Conjuration,1 Action,60 feet,1 minute,"V, S, M",1,"Artificer, Sorcerer, Wizard",Grease
+Identify,Divination,1 Minute R,Touch,Instantaneous,"V, S, M",1,"Artificer, Bard, Wizard",Identify
+Jump,Transmutation,1 Action,Touch,1 minute,"V, S, M",1,"Artificer, Druid, Ranger, Sorcerer, Wizard",Jump
+Longstrider,Transmutation,1 Action,Touch,1 hour,"V, S, M",1,"Artificer, Bard, Druid, Ranger, Wizard",Longstrider
+Purify Food and Drink,Transmutation,1 Action R,10 feet,Instantaneous,"V, S",1,"Artificer, Cleric, Druid, Paladin",Purify Food and Drink
+Sanctuary,Abjuration,1 Bonus Action,30 feet,1 minute,"V, S, M",1,"Artificer, Cleric",Sanctuary
+Snare,Abjuration,1 Minute,Touch,Until dispelled or triggered,"V, S, M",1,"Artificer, Druid, Ranger, Wizard",Snare
+Tasha's Caustic Brew,Evocation,1 Action,Self (30-foot line),"Concentration, up to 1 minute","V, S, M",1,"Artificer, Sorcerer, Wizard",Tasha's Caustic Brew
+Animal Friendship,Enchantment,1 Action,30 feet,24 hours,"V, S, M",1,"Bard, Druid, Ranger",Animal Friendship
+Bane,Enchantment,1 Action,30 feet,"Concentration, up to 1 minute","V, S, M",1,"Bard, Cleric",Bane
+Charm Person,Enchantment,1 Action,30 feet,1 hour,"V, S",1,"Bard, Druid, Sorcerer, Warlock, Wizard",Charm Person
+Color Spray,Illusion,1 Action,Self (15-foot cone),1 round,"V, S, M",1,"Bard, Sorcerer, Wizard",Color Spray
+Command,Enchantment,1 Action,60 feet,1 round,V,1,"Bard, Cleric, Paladin",Command
+Comprehend Languages,Divination,1 Action R,Self,1 hour,"V, S, M",1,"Bard, Sorcerer, Warlock, Wizard",Comprehend Languages
+Dissonant Whispers,Enchantment,1 Action,60 feet,Instantaneous,V,1,Bard,Dissonant Whispers
+Distort Value,Illusion,1 Minute,Touch,8 hours,V,1,"Bard, Sorcerer, Warlock, Wizard",Distort Value
+Earth Tremor,Evocation,1 Action,Self (10-foot radius),Instantaneous,"V, S",1,"Bard, Druid, Sorcerer, Wizard",Earth Tremor
+Guiding Hand (UA),Divination,1 Minute R,5 feet,"Concentration, up to 8 hours","V, S",1,"Bard, Cleric, Druid, Wizard",Guiding Hand (UA)
+Healing Word,Evocation,1 Bonus Action,60 feet,Instantaneous,V,1,"Bard, Cleric, Druid",Healing Word
+Heroism,Enchantment,1 Action,Touch,"Concentration, up to 1 minute","V, S",1,"Bard, Paladin",Heroism
+Illusory Script,Illusion,1 Minute R,Touch,10 days,"S, M",1,"Bard, Warlock, Wizard",Illusory Script
+Puppet (UA),Enchantment,1 Action,120 feet,Instantaneous,V,1,"Bard, Warlock, Wizard",Puppet (UA)
+Sense Emotion (UA),Divination,1 Action,Self,"Concentration, up to 1 minute","V, S",1,"Bard, Warlock, Wizard",Sense Emotion (UA)
+Silent Image,Illusion,1 Action,60 feet,"Concentration, up to 10 minutes","V, S, M",1,"Bard, Sorcerer, Wizard",Silent Image
+Silvery Barbs,Enchantment,1 Reaction,60 feet,Instantaneous,V,1,"Bard, Sorcerer, Wizard",Silvery Barbs
+Sleep,Enchantment,1 Action,90 feet,1 minute,"V, S, M",1,"Bard, Sorcerer, Wizard",Sleep
+Speak with Animals,Divination,1 Action R,Self,10 minutes,"V, S",1,"Bard, Druid, Ranger",Speak with Animals
+Sudden Awakening (UA),Enchantment,1 Bonus Action,10 feet,Instantaneous,V,1,"Bard, Ranger, Sorcerer, Wizard",Sudden Awakening (UA)
+Tasha's Hideous Laughter,Enchantment,1 Action,30 feet,"Concentration, up to 1 minute","V, S, M",1,"Bard, Wizard",Tasha's Hideous Laughter
+Thunderwave,Evocation,1 Action,Self (15-foot cube),Instantaneous,"V, S",1,"Bard, Druid, Sorcerer, Wizard",Thunderwave
+Unearthly Chorus (UA),Illusion,1 Action,Self (30-foot radius),"Concentration, up to 10 minutes",V,1,Bard,Unearthly Chorus (UA)
+Unseen Servant,Conjuration,1 Action R,60 feet,1 hour,"V, S, M",1,"Bard, Warlock, Wizard",Unseen Servant
+Bless,Enchantment,1 Action,30 feet,"Concentration, up to 1 minute","V, S, M",1,"Cleric, Paladin",Bless
+Ceremony,Evocation,1 Action R,Touch,Instantaneous,"V, S, M",1,"Cleric, Paladin",Ceremony
+Create or Destroy Water,Transmutation,1 Action,30 feet,Instantaneous,"V, S, M",1,"Cleric, Druid",Create or Destroy Water
+Detect Evil and Good,Divination,1 Action,Self,"Concentration, up to 10 minutes","V, S",1,"Cleric, Paladin",Detect Evil and Good
+Detect Poison and Disease,Divination,1 Action R,Self,"Concentration, up to 10 minutes","V, S, M",1,"Cleric, Druid, Paladin, Ranger",Detect Poison and Disease
+Guiding Bolt,Evocation,1 Action,120 feet,1 round,"V, S",1,Cleric,Guiding Bolt
+Inflict Wounds,Necromancy,1 Action,Touch,Instantaneous,"V, S",1,Cleric,Inflict Wounds
+Protection from Evil and Good,Abjuration,1 Action,Touch,"Concentration, up to 10 minutes","V, S, M",1,"Cleric, Druid, Paladin, Warlock, Wizard",Protection from Evil and Good
+Shield of Faith,Abjuration,1 Bonus Action,60 feet,"Concentration, up to 10 minutes","V, S, M",1,"Cleric, Paladin",Shield of Faith
+Beast Bond,Divination,1 Action,Touch,"Concentration, up to 1 minute","V, S, M",1,"Druid, Ranger",Beast Bond
+Entangle,Conjuration,1 Action,90 feet,"Concentration, up to 1 minute","V, S",1,"Druid, Ranger",Entangle
+Fog Cloud,Conjuration,1 Action,120 feet,"Concentration, up to 1 hour","V, S",1,"Druid, Ranger, Sorcerer, Wizard",Fog Cloud
+Goodberry,Transmutation,1 Action,Touch,Instantaneous,"V, S, M",1,"Druid, Ranger",Goodberry
+Ice Knife,Conjuration,1 Action,60 feet,Instantaneous,"S, M",1,"Druid, Sorcerer, Wizard",Ice Knife
+Wild Cunning (UA),Transmutation,1 Action R,120 feet,Instantaneous,"V, S",1,"Druid, Ranger",Wild Cunning (UA)
+Compelled Duel,Enchantment,1 Bonus Action,30 feet,"Concentration, up to 1 minute",V,1,Paladin,Compelled Duel
+Divine Favor,Evocation,1 Bonus Action,Self,"Concentration, up to 1 minute","V, S",1,Paladin,Divine Favor
+Searing Smite,Evocation,1 Bonus Action,Self,"Concentration, up to 1 minute",V,1,"Paladin, Ranger",Searing Smite
+Thunderous Smite,Evocation,1 Bonus Action,Self,"Concentration, up to 1 minute",V,1,Paladin,Thunderous Smite
+Wrathful Smite,Evocation,1 Bonus Action,Self,"Concentration, up to 1 minute",V,1,Paladin,Wrathful Smite
+Ensnaring Strike,Conjuration,1 Bonus Action,Self,"Concentration, up to 1 minute",V,1,Ranger,Ensnaring Strike
+Hail of Thorns,Conjuration,1 Bonus Action,Self,"Concentration, up to 1 minute",V,1,Ranger,Hail of Thorns
+Hunter's Mark,Divination,1 Bonus Action,90 feet,"Concentration, up to 1 hour",V,1,Ranger,Hunter's Mark
+Zephyr Strike,Transmutation,1 Bonus Action,Self,"Concentration, up to 1 minute",V,1,Ranger,Zephyr Strike
+Acid Stream (UA),Evocation,1 Action,Self (30-foot line),"Concentration, up to 1 minute","V, S, M",1,"Sorcerer, Wizard",Acid Stream (UA)
+Burning Hands,Evocation,1 Action,Self (15-foot cone),Instantaneous,"V, S",1,"Sorcerer, Wizard",Burning Hands
+Chaos Bolt,Evocation,1 Action,120 feet,Instantaneous,"V, S",1,Sorcerer,Chaos Bolt
+Chromatic Orb,Evocation,1 Action,90 feet,Instantaneous,"V, S, M",1,"Sorcerer, Wizard",Chromatic Orb
+Id Insinuation (UA),Enchantment,1 Action,60 feet,"Concentration, up to 1 minute","V, S",1,"Sorcerer, Warlock, Wizard",Id Insinuation (UA)
+Infallible Relay (UA),Divination T,1 Minute,Self,"Concentration, up to 10 minutes","V, S, M",1,"Sorcerer, Warlock, Wizard",Infallible Relay (UA)
+Mage Armor,Abjuration,1 Action,Touch,8 hours,"V, S, M",1,"Sorcerer, Wizard",Mage Armor
+Magic Missile,Evocation,1 Action,120 feet,Instantaneous,"V, S",1,"Sorcerer, Wizard",Magic Missile
+Ray of Sickness,Necromancy,1 Action,60 feet,Instantaneous,"V, S",1,"Sorcerer, Wizard",Ray of Sickness
+Remote Access (UA),Transmutation T,1 Action,120 feet,10 minutes,"V, S",1,"Sorcerer, Warlock, Wizard",Remote Access (UA)
+Shield,Abjuration,1 Reaction,Self,1 round,"V, S",1,"Sorcerer, Wizard",Shield
+Witch Bolt,Evocation,1 Action,30 feet,"Concentration, up to 1 minute","V, S, M",1,"Sorcerer, Warlock, Wizard",Witch Bolt
+Armor of Agathys,Abjuration,1 Action,Self,1 hour,"V, S, M",1,Warlock,Armor of Agathys
+Arms of Hadar,Conjuration,1 Action,Self (10-foot radius),Instantaneous,"V, S",1,Warlock,Arms of Hadar
+Cause Fear,Necromancy,1 Action,60 feet,"Concentration, up to 1 minute","V, S",1,"Warlock, Wizard",Cause Fear
+Healing Elixir (UA),Conjuration,1 Minute,Self,24 hours,"V, S, M",1,"Warlock, Wizard",Healing Elixir (UA)
+Hellish Rebuke,Evocation,1 Reaction,60 feet,Instantaneous,"V, S",1,Warlock,Hellish Rebuke
+Hex,Enchantment,1 Bonus Action,90 feet,"Concentration, up to 1 hour","V, S, M",1,Warlock,Hex
+Find Familiar,Conjuration,1 Hour R,10 feet,Instantaneous,"V, S, M",1,Wizard,Find Familiar
+Frost Fingers,Evocation,1 Action,Self (15-foot cone),Instantaneous,"V, S",1,Wizard,Frost Fingers
+Gift of Alacrity,Divination DC,1 Minute,Touch,8 hours,"V, S",1,Wizard,Gift of Alacrity
+Jim's Magic Missile,Evocation,1 Action,120 feet,Instantaneous,"V, S, M",1,Wizard,Jim's Magic Missile
+Magnify Gravity,Transmutation DG,1 Action,60 feet,1 round,"V, S",1,Wizard,Magnify Gravity
+Tenser's Floating Disk,Conjuration,1 Action R,30 feet,1 hour,"V, S, M",1,Wizard,Tenser's Floating Disk
+Aid,Abjuration,1 Action,30 Feet,8 hours,"V, S, M",2,"Artificer, Bard, Cleric, Paladin, Ranger",Aid
+Air Bubble,Conjuration,1 Action,60 Feet,24 hours,S,2,"Artificer, Druid, Ranger, Sorcerer, Wizard",Air Bubble
+Alter Self,Transmutation,1 Action,Self,"Concentration, up to 1 hour","V, S",2,"Artificer, Sorcerer, Wizard",Alter Self
+Arcane Lock,Abjuration,1 Action,Touch,Until dispelled,"V, S, M",2,"Artificer, Wizard",Arcane Lock
+Blur,Illusion,1 Action,Self,"Concentration, up to 1 minute",V,2,"Artificer, Sorcerer, Wizard",Blur
+Continual Flame,Evocation,1 Action,Touch,Until dispelled,"V, S, M",2,"Artificer, Cleric, Druid, Wizard",Continual Flame
+Darkvision,Transmutation,1 Action,Touch,8 hours,"V, S, M",2,"Artificer, Druid, Ranger, Sorcerer, Wizard",Darkvision
+Enhance Ability,Transmutation,1 Action,Touch,"Concentration, up to 1 hour","V, S, M",2,"Artificer, Bard, Cleric, Druid, Ranger, Sorcerer, Wizard",Enhance Ability
+Enlarge/Reduce,Transmutation,1 Action,30 feet,"Concentration, up to 1 minute","V, S, M",2,"Artificer, Bard, Druid, Sorcerer, Wizard",Enlarge/Reduce
+Heat Metal,Transmutation,1 Action,60 feet,"Concentration, up to 1 minute","V, S, M",2,"Artificer, Bard, Druid",Heat Metal
+Invisibility,Illusion,1 Action,Touch,"Concentration, up to 1 hour","V, S, M",2,"Artificer, Bard, Sorcerer, Warlock, Wizard",Invisibility
+Kinetic Jaunt,Transmutation,1 Bonus Action,Self,"Concentration, up to 1 minute",S,2,"Artificer, Bard, Sorcerer, Wizard",Kinetic Jaunt
+Lesser Restoration,Abjuration,1 Action,Touch,Instantaneous,"V, S",2,"Artificer, Bard, Cleric, Druid, Paladin, Ranger",Lesser Restoration
+Levitate,Transmutation,1 Action,60 feet,"Concentration, up to 10 minutes","V, S, M",2,"Artificer, Sorcerer, Wizard",Levitate
+Magic Mouth,Illusion,1 Minute R,30 feet,Until dispelled,"V, S, M",2,"Artificer, Bard, Wizard",Magic Mouth
+Magic Weapon,Transmutation,1 Bonus Action,Touch,"Concentration, up to 1 hour","V, S",2,"Artificer, Paladin, Ranger, Sorcerer, Wizard",Magic Weapon
+Protection from Poison,Abjuration,1 Action,Touch,1 hour,"V, S",2,"Artificer, Cleric, Druid, Paladin, Ranger",Protection from Poison
+Pyrotechnics,Transmutation,1 Action,60 feet,Instantaneous,"V, S",2,"Artificer, Bard, Sorcerer, Wizard",Pyrotechnics
+Rope Trick,Transmutation,1 Action,Touch,1 hour,"V, S, M",2,"Artificer, Wizard",Rope Trick
+See Invisibility,Divination,1 Action,Self,1 hour,"V, S, M",2,"Artificer, Bard, Sorcerer, Wizard",See Invisibility
+Skywrite,Transmutation,1 Action R,Sight,"Concentration, up to 1 day","V, S",2,"Artificer, Bard, Druid, Wizard",Skywrite
+Spider Climb,Transmutation,1 Action,Touch,"Concentration, up to 1 hour","V, S, M",2,"Artificer, Sorcerer, Warlock, Wizard",Spider Climb
+Vortex Warp,Conjuration,1 Action,90 feet,Instantaneous,"V, S",2,"Artificer, Sorcerer, Wizard",Vortex Warp
+Web,Conjuration,1 Action,60 feet,"Concentration, up to 1 hour","V, S, M",2,"Artificer, Sorcerer, Wizard",Web
+Animal Messenger,Enchantment,1 Action R,30 Feet,24 hours,"V, S, M",2,"Bard, Druid, Ranger",Animal Messenger
+Blindness/Deafness,Necromancy,1 Action,30 Feet,1 minute,V,2,"Bard, Cleric, Sorcerer, Wizard",Blindness/Deafness
+Borrowed Knowledge,Divination,1 Action,Self,1 hour,"V, S, M",2,"Bard, Cleric, Warlock, Wizard",Borrowed Knowledge
+Calm Emotions,Enchantment,1 Action,60 feet,"Concentration, up to 1 minute","V, S",2,"Bard, Cleric",Calm Emotions
+Cloud of Daggers,Conjuration,1 Action,60 feet,"Concentration, up to 1 minute","V, S, M",2,"Bard, Sorcerer, Warlock, Wizard",Cloud of Daggers
+Crown of Madness,Enchantment,1 Action,120 feet,"Concentration, up to 1 minute","V, S",2,"Bard, Sorcerer, Warlock, Wizard",Crown of Madness
+Detect Thoughts,Divination,1 Action,Self,"Concentration, up to 1 minute","V, S, M",2,"Bard, Sorcerer, Wizard",Detect Thoughts
+Enthrall,Enchantment,1 Action,60 feet,1 minute,"V, S",2,"Bard, Warlock",Enthrall
+Gift of Gab,Enchantment,Reaction,Self,Instantaneous,"V, S, M",2,"Bard, Wizard",Gift of Gab
+Hold Person,Enchantment,1 Action,60 feet,"Concentration, up to 1 minute","V, S, M",2,"Bard, Cleric, Druid, Sorcerer, Warlock, Wizard",Hold Person
+Knock,Transmutation,1 Action,60 feet,Instantaneous,V,2,"Bard, Sorcerer, Wizard",Knock
+Locate Animals or Plants,Divination,1 Action R,Self,Instantaneous,"V, S, M",2,"Bard, Druid, Ranger",Locate Animals or Plants
+Locate Object,Divination,1 Action,Self,"Concentration, up to 10 minutes","V, S, M",2,"Bard, Cleric, Druid, Paladin, Ranger, Wizard",Locate Object
+Mirror Image,Illusion,1 Action,Self,1 minute,"V, S",2,"Bard, Sorcerer, Warlock, Wizard",Mirror Image
+Nathair's Mischief,Illusion,1 Action,60ft,"Concentration, up to 1 minute","S, M",2,"Bard, Sorcerer, Wizard",Nathair's Mischief
+Nathair's Mischief (UA),Illusion,1 Action,60 feet,"Concentration, up to 1 minute","S, M",2,"Bard, Sorcerer, Wizard",Nathair's Mischief (UA)
+Phantasmal Force,Illusion,1 Action,60 feet,"Concentration, up to 1 minute","V, S, M",2,"Bard, Sorcerer, Wizard",Phantasmal Force
+Shatter,Evocation,1 Action,60 feet,Instantaneous,"V, S, M",2,"Bard, Sorcerer, Warlock, Wizard",Shatter
+Silence,Illusion,1 Action R,120 feet,"Concentration, up to 10 minutes","V, S",2,"Bard, Cleric, Ranger",Silence
+Spray Of Cards,Conjuration,1 Action,Self (15-foot cone),Instantaneous,"V, S, M",2,"Bard, Sorcerer, Warlock, Wizard",Spray Of Cards
+Spray of Cards (UA),Conjuration,1 Action,15-foot cone,Instantaneous,"V, S, M",2,"Bard, Sorcerer, Warlock, Wizard",Spray of Cards (UA)
+Suggestion,Enchantment,1 Action,30 feet,"Concentration, up to 8 hours","V, M",2,"Bard, Sorcerer, Warlock, Wizard",Suggestion
+Warding Wind,Evocation,1 Action,Self,"Concentration, up to 10 minutes",V,2,"Bard, Druid, Sorcerer, Wizard",Warding Wind
+Zone of Truth,Enchantment,1 Action,60 feet,10 minutes,"V, S",2,"Bard, Cleric, Paladin",Zone of Truth
+Augury,Divination,1 Minute R,Self,Instantaneous,"V, S, M",2,"Cleric, Druid, Wizard",Augury
+Find Traps,Divination,1 Action,120 feet,Instantaneous,"V, S",2,"Cleric, Druid, Ranger",Find Traps
+Gentle Repose,Necromancy,1 Action R,Touch,10 days,"V, S, M",2,"Cleric, Paladin, Wizard",Gentle Repose
+Prayer of Healing,Evocation,10 Minutes,30 feet,Instantaneous,V,2,"Cleric, Paladin",Prayer of Healing
+Spiritual Weapon,Evocation,1 Bonus Action,60 feet,1 minute,"V, S",2,Cleric,Spiritual Weapon
+Warding Bond,Abjuration,1 Action,Touch,1 hour,"V, S, M",2,"Cleric, Paladin",Warding Bond
+Barkskin,Transmutation,1 Action,Touch,"Concentration, up to 1 hour","V, S, M",2,"Druid, Ranger",Barkskin
+Beast Sense,Divination,1 Action R,Touch,"Concentration, up to 1 hour",S,2,"Druid, Ranger",Beast Sense
+Dust Devil,Conjuration,1 Action,60 feet,"Concentration, up to 1 minute","V, S, M",2,"Druid, Sorcerer, Wizard",Dust Devil
+Earthbind,Transmutation,1 Action,300 feet,"Concentration, up to 1 minute",V,2,"Druid, Sorcerer, Warlock, Wizard",Earthbind
+Flame Blade,Evocation,1 Bonus Action,Self,"Concentration, up to 10 minutes","V, S, M",2,"Druid, Sorcerer",Flame Blade
+Flaming Sphere,Conjuration,1 Action,60 feet,"Concentration, up to 1 minute","V, S, M",2,"Druid, Sorcerer, Wizard",Flaming Sphere
+Gust of Wind,Evocation,1 Action,Self (60-foot line),"Concentration, up to 1 minute","V, S, M",2,"Druid, Ranger, Sorcerer, Wizard",Gust of Wind
+Healing Spirit,Conjuration,1 Bonus Action,60 feet,"Concentration, up to 1 minute","V, S",2,"Druid, Ranger",Healing Spirit
+Moonbeam,Evocation,1 Action,120 feet,"Concentration, up to 1 minute","V, S, M",2,Druid,Moonbeam
+Pass Without Trace,Abjuration,1 Action,Self,"Concentration, up to 1 hour","V, S, M",2,"Druid, Ranger",Pass Without Trace
+Spike Growth,Transmutation,1 Action,150 feet,"Concentration, up to 10 minutes","V, S, M",2,"Druid, Ranger",Spike Growth
+Summon Beast,Conjuration,1 Action,90 feet,"Concentration, up to 1 hour","V, S, M",2,"Druid, Ranger",Summon Beast
+Wither and Bloom,Necromancy,1 Action,60 feet,Instantaneous,"V, S, M",2,"Druid, Sorcerer, Wizard",Wither and Bloom
+Branding Smite,Evocation,1 Bonus Action,Self,"Concentration, up to 1 minute",V,2,Paladin,Branding Smite
+Find Steed,Conjuration,10 Minutes,30 feet,Instantaneous,"V, S",2,Paladin,Find Steed
+Find Vehicle (UA),Conjuration T,10 Minutes,30 feet,8 hours,"V, S",2,"Paladin, Sorcerer, Warlock, Wizard",Find Vehicle (UA)
+Cordon of Arrows,Transmutation,1 Action,5 feet,8 hours,"V, S, M",2,Ranger,Cordon of Arrows
+Aganazzar's Scorcher,Evocation,1 Action,30 Feet,Instantaneous,"V, S, M",2,"Sorcerer, Wizard",Aganazzar's Scorcher
+Arcane Hacking (UA),Transmutation T,1 Action,Self,"Concentration, up to 1 hour","V, S, M",2,"Sorcerer, Warlock, Wizard",Arcane Hacking (UA)
+Darkness,Evocation,1 Action,60 feet,"Concentration, up to 10 minutes","V, M",2,"Sorcerer, Warlock, Wizard",Darkness
+Digital Phantom (UA),Abjuration T,1 Action,Self,"Concentration, up to 1 hour","V, S, M",2,"Sorcerer, Warlock, Wizard",Digital Phantom (UA)
+Dragon's Breath,Transmutation,1 Bonus Action,Touch,"Concentration, up to 1 minute","V, S, M",2,"Sorcerer, Wizard",Dragon's Breath
+Icingdeath's Frost (UA),Evocation,1 Action,Self (15-foot cone),Instantaneous,"S, M",2,"Sorcerer, Wizard",Icingdeath's Frost (UA)
+Maximillian's Earthen Grasp,Transmutation,1 Action,30 feet,"Concentration, up to 1 minute","V, S, M",2,"Sorcerer, Wizard",Maximillian's Earthen Grasp
+Mental Barrier (UA),Abjuration,1 Reaction,Self,1 round,V,2,"Sorcerer, Warlock, Wizard",Mental Barrier (UA)
+Mind Spike,Divination,1 Action,60 feet,"Concentration, up to 1 hour",S,2,"Sorcerer, Warlock, Wizard",Mind Spike
+Mind Thrust (UA),Enchantment,1 Bonus Action,60 feet,1 round,"V, S",2,"Sorcerer, Warlock, Wizard",Mind Thrust (UA)
+Misty Step,Conjuration,1 Bonus Action,Self,Instantaneous,V,2,"Sorcerer, Warlock, Wizard",Misty Step
+Rime's Binding Ice,Evocation,1 Action,Self (30-foot cone),Instantaneous,"S, M",2,"Sorcerer, Wizard",Rime's Binding Ice
+Scorching Ray,Evocation,1 Action,120 feet,Instantaneous,"V, S",2,"Sorcerer, Wizard",Scorching Ray
+Shadow Blade,Illusion,1 Bonus Action,Self,"Concentration, up to 1 minute","V, S",2,"Sorcerer, Warlock, Wizard",Shadow Blade
+Snilloc's Snowball Swarm,Evocation,1 Action,90 feet,Instantaneous,"V, S, M",2,"Sorcerer, Wizard",Snilloc's Snowball Swarm
+Tasha's Mind Whip,Enchantment,1 Action,90 feet,1 round,V,2,"Sorcerer, Wizard",Tasha's Mind Whip
+Thought Shield (UA),Abjuration,1 Action,Touch,8 hours,"V, S",2,"Sorcerer, Warlock, Wizard",Thought Shield (UA)
+Warp Sense,Divination,1 Action,Self,"Concentration, up to 1 minute","V, S, M",2,"Sorcerer, Warlock, Wizard",Warp Sense
+Flock of Familiars,Conjuration,1 Minute,Touch,"Concentration, up to 1 hour","V, S",2,"Warlock, Wizard",Flock of Familiars
+Ray of Enfeeblement,Necromancy,1 Action,60 feet,"Concentration, up to 1 minute","V, S",2,"Warlock, Wizard",Ray of Enfeeblement
+Fortune's Favor,Divination D,1 Minute,60 feet,1 hour,"V, S, M",2,Wizard,Fortune's Favor
+Immovable Object,Transmutation DG,1 Action,Touch,1 hour,"V, S, M",2,Wizard,Immovable Object
+Jim's Glowing Coin,Enchantment,1 Action,60 feet,1 minute,"S, M",2,Wizard,Jim's Glowing Coin
+Melf's Acid Arrow,Evocation,1 Action,90 feet,Instantaneous,"V, S, M",2,Wizard,Melf's Acid Arrow
+Nystul's Magic Aura,Illusion,1 Action,Touch,24 hours,"V, S, M",2,Wizard,Nystul's Magic Aura
+Wristpocket,Conjuration D,1 Action R,Self,"Concentration, up to 1 hour",S,2,Wizard,Wristpocket
+Ashardalon's Stride,Transmutation,1 Bonus Action,Self,"Concentration, up to 1 minute","V,S",3,"Artificer, Ranger, Sorcerer, Wizard",Ashardalon's Stride
+Blink,Transmutation,1 Action,Self,1 minute,"V, S",3,"Artificer, Sorcerer, Wizard",Blink
+Catnap,Enchantment,1 Action,30 feet,10 minutes,"S, M",3,"Artificer, Bard, Sorcerer, Wizard",Catnap
+Create Food and Water,Conjuration,1 Action,30 feet,Instantaneous,"V, S",3,"Artificer, Cleric, Paladin",Create Food and Water
+Dispel Magic,Abjuration,1 Action,120 feet,Instantaneous,"V, S",3,"Artificer, Bard, Cleric, Druid, Paladin, Sorcerer, Warlock, Wizard",Dispel Magic
+Elemental Weapon,Transmutation,1 Action,Touch,"Concentration, up to 1 hour","V, S",3,"Artificer, Druid, Paladin, Ranger",Elemental Weapon
+Flame Arrows,Transmutation,1 Action,Touch,"Concentration, up to 1 hour","V, S",3,"Artificer, Druid, Ranger, Sorcerer, Wizard",Flame Arrows
+Flame Stride (UA),Transmutation,1 Bonus Action,Self,"Concentration, up to 1 minute","V, S",3,"Artificer, Ranger, Sorcerer, Wizard",Flame Stride (UA)
+Fly,Transmutation,1 Action,Touch,"Concentration, up to 10 minutes","V, S, M",3,"Artificer, Sorcerer, Warlock, Wizard",Fly
+Glyph of Warding,Abjuration,1 Hour,Touch,Until dispelled or triggered,"V, S, M",3,"Artificer, Bard, Cleric, Wizard",Glyph of Warding
+Haste,Transmutation,1 Action,30 feet,"Concentration, up to 1 minute","V, S, M",3,"Artificer, Sorcerer, Wizard",Haste
+House of Cards (UA),Conjuration,1 Minute,Touch,24 hours,"V, S, M",3,"Artificer, Bard, Sorcerer, Wizard",House of Cards (UA)
+Intellect Fortress,Abjuration,1 Action,30 feet,"Concentration, up to 1 hour",V,3,"Artificer, Bard, Sorcerer, Warlock, Wizard",Intellect Fortress
+Protection from Energy,Abjuration,1 Action,Touch,"Concentration, up to 1 hour","V, S",3,"Artificer, Cleric, Druid, Ranger, Sorcerer, Wizard",Protection from Energy
+Revivify,Necromancy,1 Action,Touch,Instantaneous,"V, S, M",3,"Artificer, Cleric, Druid, Paladin, Ranger",Revivify
+Tiny Servant,Transmutation,1 Minute,Touch,8 hours,"V, S",3,"Artificer, Wizard",Tiny Servant
+Water Breathing,Transmutation,1 Action R,30 feet,24 hours,"V, S, M",3,"Artificer, Druid, Ranger, Sorcerer, Wizard",Water Breathing
+Water Walk,Transmutation,1 Action R,30 feet,1 hour,"V, S, M",3,"Artificer, Cleric, Druid, Ranger, Sorcerer",Water Walk
+Antagonize,Enchantment,1 Action,30 feet,Instantaneous,"V, S, M",3,"Bard, Sorcerer, Warlock, Wizard",Antagonize
+Antagonize (UA),Enchantment,1 Action,30 feet,Instantaneous,"V, S, M",3,"Bard, Sorcerer, Warlock, Wizard",Antagonize (UA)
+Bestow Curse,Necromancy,1 Action,Touch,"Concentration, up to 1 minute","V, S",3,"Bard, Cleric, Wizard",Bestow Curse
+Clairvoyance,Divination,10 Minutes,1 mile,"Concentration, up to 10 minutes","V, S, M",3,"Bard, Cleric, Sorcerer, Wizard",Clairvoyance
+Enemies Abound,Enchantment,1 Action,120 feet,"Concentration, up to 1 minute","V, S",3,"Bard, Sorcerer, Warlock, Wizard",Enemies Abound
+Fast Friends,Enchantment,1 Action,30 feet,"Concentration, up to 1 hour",V,3,"Bard, Cleric, Wizard",Fast Friends
+Fear,Illusion,1 Action,Self (30-foot cone),"Concentration, up to 1 minute","V, S, M",3,"Bard, Sorcerer, Warlock, Wizard",Fear
+Feign Death,Necromancy,1 Action R,Touch,1 hour,"V, S, M",3,"Bard, Cleric, Druid, Wizard",Feign Death
+Hypnotic Pattern,Illusion,1 Action,120 feet,"Concentration, up to 1 minute","S, M",3,"Bard, Sorcerer, Warlock, Wizard",Hypnotic Pattern
+Leomund's Tiny Hut,Evocation,1 Minute R,Self (10-foot radius hemisphere),8 hours,"V, S, M",3,"Bard, Wizard",Leomund's Tiny Hut
+Major Image,Illusion,1 Action,120 feet,"Concentration, up to 10 minutes","V, S, M",3,"Bard, Sorcerer, Warlock, Wizard",Major Image
+Mass Healing Word,Evocation,1 Bonus Action,60 feet,Instantaneous,V,3,"Bard, Cleric",Mass Healing Word
+Motivational Speech,Enchantment,1 hour,60 feet,1 hour,V,3,"Bard, Cleric",Motivational Speech
+Nondetection,Abjuration,1 Action,Touch,8 hours,"V, S, M",3,"Bard, Ranger, Wizard",Nondetection
+Plant Growth,Transmutation,1 Action or 8 Hours,150 feet,Instantaneous,"V, S",3,"Bard, Druid, Ranger",Plant Growth
+Sending,Evocation,1 Action,Unlimited,1 round,"V, S, M",3,"Bard, Cleric, Wizard",Sending
+Slow,Transmutation,1 Action,120 feet,"Concentration, up to 1 minute","V, S, M",3,"Bard, Sorcerer, Wizard",Slow
+Speak with Dead,Necromancy,1 Action,10 feet,10 minutes,"V, S, M",3,"Bard, Cleric, Wizard",Speak with Dead
+Speak with Plants,Transmutation,1 Action,Self (30-foot radius),10 minutes,"V, S",3,"Bard, Druid, Ranger",Speak with Plants
+Stinking Cloud,Conjuration,1 Action,90 feet,"Concentration, up to 1 minute","V, S, M",3,"Bard, Sorcerer, Wizard",Stinking Cloud
+Tongues,Divination,1 Action,Touch,1 hour,"V, M",3,"Bard, Cleric, Sorcerer, Warlock, Wizard",Tongues
+Animate Dead,Necromancy,1 Minute,10 feet,Instantaneous,"V, S, M",3,"Cleric, Wizard",Animate Dead
+Aura of Vitality,Evocation,1 Action,Self (30-foot radius),"Concentration, up to 1 minute",V,3,"Cleric, Druid, Paladin",Aura of Vitality
+Beacon of Hope,Abjuration,1 Action,30 feet,"Concentration, up to 1 minute","V, S",3,Cleric,Beacon of Hope
+Daylight,Evocation,1 Action,60 feet,1 hour,"V, S",3,"Cleric, Druid, Paladin, Ranger, Sorcerer",Daylight
+Incite Greed,Enchantment,1 action,30 feet,"Concentration, up to 1 minute","V, S, M",3,"Cleric, Sorcerer, Warlock, Wizard",Incite Greed
+Life Transference,Necromancy,1 Action,30 feet,Instantaneous,"V, S",3,"Cleric, Wizard",Life Transference
+Magic Circle,Abjuration,1 Minute,10 feet,1 hour,"V, S, M",3,"Cleric, Paladin, Warlock, Wizard",Magic Circle
+Meld into Stone,Transmutation,1 Action R,Touch,8 hours,"V, S",3,"Cleric, Druid, Ranger",Meld into Stone
+Remove Curse,Abjuration,1 Action,Touch,Instantaneous,"V, S",3,"Cleric, Paladin, Warlock, Wizard",Remove Curse
+Spirit Guardians,Conjuration,1 Action,Self (15-foot radius),"Concentration, up to 10 minutes","V, S, M",3,Cleric,Spirit Guardians
+Spirit Shroud,Necromancy,1 Bonus Action,Self,"Concentration, up to 1 minute","V, S",3,"Cleric, Paladin, Warlock, Wizard",Spirit Shroud
+Call Lightning,Conjuration,1 Action,120 feet,"Concentration, up to 10 minutes","V, S",3,Druid,Call Lightning
+Conjure Animals,Conjuration,1 Action,60 feet,"Concentration, up to 1 hour","V, S",3,"Druid, Ranger",Conjure Animals
+Erupting Earth,Transmutation,1 Action,120 feet,Instantaneous,"V, S, M",3,"Druid, Sorcerer, Wizard",Erupting Earth
+Freedom of the Waves (HB),Conjuration HB,1 action,120 feet,Instantaneous,"V, S, M",3,"Druid, Ranger, Sorcerer",Freedom of the Waves (HB)
+Sleet Storm,Conjuration,1 Action,120 feet,"Concentration, up to 1 minute","V, S, M",3,"Druid, Sorcerer, Wizard",Sleet Storm
+Summon Fey,Conjuration,1 Action,90 feet,"Concentration, up to 1 hour","V, S, M",3,"Druid, Ranger, Warlock, Wizard",Summon Fey
+Tidal Wave,Conjuration,1 Action,120 feet,Instantaneous,"V, S, M",3,"Druid, Sorcerer, Wizard",Tidal Wave
+Wall of Water,Evocation,1 Action,60 feet,"Concentration, up to 10 minutes","V, S, M",3,"Druid, Sorcerer, Wizard",Wall of Water
+Wind Wall,Evocation,1 Action,120 feet,"Concentration, up to 1 minute","V, S, M",3,"Druid, Ranger",Wind Wall
+Blinding Smite,Evocation,1 Bonus Action,Self,"Concentration, up to 1 minute",V,3,Paladin,Blinding Smite
+Crusader's Mantle,Evocation,1 Action,Self,"Concentration, up to 1 minute",V,3,Paladin,Crusader's Mantle
+Conjure Barrage,Conjuration,1 Action,Self (60-foot cone),Instantaneous,"V, S, M",3,Ranger,Conjure Barrage
+Lightning Arrow,Transmutation,1 Bonus Action,Self,"Concentration, up to 1 minute","V, S",3,Ranger,Lightning Arrow
+Conjure Lesser Demon (UA),Conjuration,1 Action,60 feet,"Concentration, up to 1 hour","V, S, M",3,"Sorcerer, Wizard",Conjure Lesser Demon (UA)
+Counterspell,Abjuration,1 Reaction,60 feet,Instantaneous,S,3,"Sorcerer, Warlock, Wizard",Counterspell
+Fireball,Evocation,1 Action,150 feet,Instantaneous,"V, S, M",3,"Sorcerer, Wizard",Fireball
+Gaseous Form,Transmutation,1 Action,Touch,"Concentration, up to 1 hour","V, S, M",3,"Sorcerer, Warlock, Wizard",Gaseous Form
+Haywire (UA),Enchantment T,1 Action,90 feet,"Concentration, up to 1 minute","V, S",3,"Sorcerer, Warlock, Wizard",Haywire (UA)
+Invisibility To Cameras (UA),Illusion T,1 Action,10 feet,"Concentration, up to 1 minute","V, S, M",3,"Sorcerer, Warlock, Wizard",Invisibility To Cameras (UA)
+Lightning Bolt,Evocation,1 Action,Self (100-foot line),Instantaneous,"V, S, M",3,"Sorcerer, Wizard",Lightning Bolt
+Melf's Minute Meteors,Evocation,1 Action,Self (120 feet),"Concentration, up to 10 minutes","V, S, M",3,"Sorcerer, Wizard",Melf's Minute Meteors
+Protection from Ballistics (UA),Abjuration T,1 Action,Touch,"Concentration, up to 10 minutes","V, S, M",3,"Sorcerer, Warlock, Wizard",Protection from Ballistics (UA)
+Psionic Blast (UA),Evocation,1 Action,Self (30-foot cone),Instantaneous,V,3,"Sorcerer, Warlock, Wizard",Psionic Blast (UA)
+Summon Warrior Spirit (UA),Conjuration,1 Action,90 feet,"Concentration, up to 1 hour","V, S, M",3,"Sorcerer, Warlock, Wizard",Summon Warrior Spirit (UA)
+Thunder Step,Conjuration,1 Action,90 feet,Instantaneous,V,3,"Sorcerer, Warlock, Wizard",Thunder Step
+Vampiric Touch,Necromancy,1 Action,Self,"Concentration, up to 1 minute","V, S",3,"Sorcerer, Warlock, Wizard",Vampiric Touch
+Hunger Of Hadar,Conjuration,1 Action,150 feet,"Concentration, up to 1 minute","V, S, M",3,Warlock,Hunger Of Hadar
+Summon Lesser Demons,Conjuration,1 Action,60 Feet,"Concentration, up to 1 hour","V, S, M",3,"Warlock, Wizard",Summon Lesser Demons
+Summon Shadowspawn,Conjuration,1 Action,90 feet,"Concentration, up to 1 hour","V, S, M",3,"Warlock, Wizard",Summon Shadowspawn
+Summon Undead,Necromancy,1 Action,90 feet,"Concentration, up to 1 hour","V, S, M",3,"Warlock, Wizard",Summon Undead
+Galder's Tower,Conjuration,10 Minutes,30 feet,24 hours,"V, S, M",3,Wizard,Galder's Tower
+Phantom Steed,Illusion,1 Minute R,30 feet,1 hour,"V, S",3,Wizard,Phantom Steed
+Pulse Wave,Evocation D,1 Action,Self (30-foot cone),Instantaneous,"V, S",3,Wizard,Pulse Wave
+Wall of Sand,Evocation,1 Action,90 feet,"Concentration, up to 10 minutes","V, S, M",3,Wizard,Wall of Sand
+Arcane Eye,Divination,1 Action,30 feet,"Concentration, up to 1 hour","V, S, M",4,"Artificer, Wizard",Arcane Eye
+Elemental Bane,Transmutation,1 Action,90 feet,"Concentration, up to 1 minute","V, S",4,"Artificer, Druid, Warlock, Wizard",Elemental Bane
+Fabricate,Transmutation,10 Minutes,120 feet,Instantaneous,"V, S",4,"Artificer, Wizard",Fabricate
+Freedom of Movement,Abjuration,1 Action,Touch,1 hour,"V, S, M",4,"Artificer, Bard, Cleric, Druid, Ranger",Freedom of Movement
+Leomund's Secret Chest,Conjuration,1 Action,Touch,Instantaneous,"V, S, M",4,"Artificer, Wizard",Leomund's Secret Chest
+Mordenkainen's Faithful Hound,Conjuration,1 Action,30 feet,8 hours,"V, S, M",4,"Artificer, Wizard",Mordenkainen's Faithful Hound
+Mordenkainen's Private Sanctum,Abjuration,10 minutes,120 feet,24 hours,"V, S, M",4,"Artificer, Wizard",Mordenkainen's Private Sanctum
+Otiluke's Resilient Sphere,Evocation,1 Action,30 feet,"Concentration, up to 1 minute","V, S, M",4,"Artificer, Wizard",Otiluke's Resilient Sphere
+Stone Shape,Transmutation,1 Action,Touch,Instantaneous,"V, S, M",4,"Artificer, Cleric, Druid, Wizard",Stone Shape
+Stoneskin,Abjuration,1 Action,Touch,"Concentration, up to 1 hour","V, S, M",4,"Artificer, Druid, Ranger, Sorcerer, Wizard",Stoneskin
+Summon Construct,Conjuration,1 Action,90 feet,"Concentration, up to 1 hour","V, S, M",4,"Artificer, Wizard",Summon Construct
+Charm Monster,Enchantment,1 Action,30 feet,1 hour,"V, S",4,"Bard, Druid, Sorcerer, Warlock, Wizard",Charm Monster
+Compulsion,Enchantment,1 Action,30 feet,"Concentration, up to 1 minute","V, S",4,Bard,Compulsion
+Confusion,Enchantment,1 Action,90 feet,"Concentration, up to 1 minute","V, S, M",4,"Bard, Druid, Sorcerer, Wizard",Confusion
+Dimension Door,Conjuration,1 Action,500 feet,Instantaneous,V,4,"Bard, Sorcerer, Warlock, Wizard",Dimension Door
+Ego Whip (UA),Enchantment,1 Action,30 feet,"Concentration, up to 1 minute",V,4,"Bard, Sorcerer, Warlock, Wizard",Ego Whip (UA)
+Greater Invisibility,Illusion,1 Action,Touch,"Concentration, up to 1 minute","V, S",4,"Bard, Sorcerer, Wizard",Greater Invisibility
+Hallucinatory Terrain,Illusion,10 Minutes,300 feet,24 hours,"V, S, M",4,"Bard, Druid, Warlock, Wizard",Hallucinatory Terrain
+Locate Creature,Divination,1 Action,Self,"Concentration, up to 1 hour","V, S, M",4,"Bard, Cleric, Druid, Paladin, Ranger, Wizard",Locate Creature
+Phantasmal Killer,Illusion,1 Action,120 feet,"Concentration, up to 1 minute","V, S",4,"Bard, Wizard",Phantasmal Killer
+Polymorph,Transmutation,1 Action,60 feet,"Concentration, up to 1 hour","V, S, M",4,"Bard, Druid, Sorcerer, Wizard",Polymorph
+Raulothim's Psychic Lance,Enchantment,1 Action,120 feet,Instantaneous,V,4,"Bard, Sorcerer, Warlock, Wizard",Raulothim's Psychic Lance
+Raulothim's Psychic Lance (UA),Enchantment,1 Action,120 feet,Instantaneous,V,4,"Bard, Sorcerer, Warlock, Wizard",Raulothim's Psychic Lance (UA)
+Aura of Life,Abjuration,1 Action,Self (30-foot radius),"Concentration, up to 10 minutes",V,4,"Cleric, Paladin",Aura of Life
+Aura of Purity,Abjuration,1 Action,Self (30-foot radius),"Concentration, up to 10 minutes",V,4,"Cleric, Paladin",Aura of Purity
+Banishment,Abjuration,1 Action,60 feet,"Concentration, up to 1 minutes","V, S, M",4,"Cleric, Paladin, Sorcerer, Warlock, Wizard",Banishment
+Control Water,Transmutation,1 Action,300 feet,"Concentration, up to 10 minutes","V, S, M",4,"Cleric, Druid, Wizard",Control Water
+Death Ward,Abjuration,1 Action,Touch,8 hours,"V, S",4,"Cleric, Paladin",Death Ward
+Divination,Divination,1 Action R,Self,Instantaneous,"V, S, M",4,"Cleric, Druid, Wizard",Divination
+Guardian of Faith,Conjuration,1 Action,30 feet,8 hours,V,4,Cleric,Guardian of Faith
+Blight,Necromancy,1 Action,30 feet,Instantaneous,"V, S",4,"Druid, Sorcerer, Warlock, Wizard",Blight
+Conjure Minor Elementals,Conjuration,1 Minute,90 feet,"Concentration, up to 1 hour","V, S",4,"Druid, Wizard",Conjure Minor Elementals
+Conjure Woodland Beings,Conjuration,1 Action,60 feet,"Concentration, up to 1 hour","V, S, M",4,"Druid, Ranger",Conjure Woodland Beings
+Dominate Beast,Enchantment,1 Action,60 feet,"Concentration, up to 1 minute","V, S",4,"Druid, Ranger, Sorcerer",Dominate Beast
+Fire Shield,Evocation,1 Action,Self,10 minutes,"V, S, M",4,"Druid, Sorcerer, Wizard",Fire Shield
+Giant Insect,Transmutation,1 Action,30 feet,"Concentration, up to 10 minutes","V, S",4,Druid,Giant Insect
+Grasping Vine,Conjuration,1 Bonus Action,30 feet,"Concentration, up to 1 minute","V, S",4,"Druid, Ranger",Grasping Vine
+Guardian of Nature,Transmutation,1 Bonus Action,Self,"Concentration, up to 1 minute",V,4,"Druid, Ranger",Guardian of Nature
+Ice Storm,Evocation,1 Action,300 feet,Instantaneous,"V, S, M",4,"Druid, Sorcerer, Wizard",Ice Storm
+Summon Elemental,Conjuration,1 Action,90 feet,"Concentration, up to 1 hour","V, S, M",4,"Druid, Ranger, Wizard",Summon Elemental
+Wall of Fire,Evocation,1 Action,120 feet,"Concentration, up to 1 minute","V, S, M",4,"Druid, Sorcerer, Wizard",Wall of Fire
+Watery Sphere,Conjuration,1 Action,90 feet,"Concentration, up to 1 minute","V, S, M",4,"Druid, Sorcerer, Wizard",Watery Sphere
+Find Greater Steed,Conjuration,10 Minutes,30 feet,Instantaneous,"V, S",4,Paladin,Find Greater Steed
+Staggering Smite,Evocation,1 Bonus Action,Self,"Concentration, up to 1 minute",V,4,Paladin,Staggering Smite
+Conjure Barlgura (UA),Conjuration,1 Action,60 feet,Up to 10 minutes,"V, S",4,"Sorcerer, Wizard",Conjure Barlgura (UA)
+Conjure Knowbot (UA),Conjuration T,1 Action,Touch,10 minutes,"V, S",4,"Sorcerer, Warlock, Wizard",Conjure Knowbot (UA)
+Conjure Shadow Demon (UA),Conjuration,1 Action,60 feet,"Concentration, up to 1 hour","V, S, M",4,"Sorcerer, Wizard",Conjure Shadow Demon (UA)
+Gate Seal,Abjuration,1 Minute,60 feet,24 hours,"V, S, M",4,"Sorcerer, Warlock, Wizard",Gate Seal
+Sickening Radiance,Evocation,1 Action,120 Feet,"Concentration, up to 10 minutes","V, S",4,"Sorcerer, Warlock, Wizard",Sickening Radiance
+Spirit Of Death,Necromancy,1 Action,60 feet,"Concentration, up to 1 hour","V, S, M",4,"Sorcerer, Warlock, Wizard",Spirit Of Death
+Spirit of Death (UA),Necromancy,1 Action,60 feet,"Concentration, up to 1 minute","V, S, M",4,"Sorcerer, Warlock, Wizard",Spirit of Death (UA)
+Storm Sphere,Evocation,1 Action,150 feet,"Concentration, up to 1 minute","V, S",4,"Sorcerer, Wizard",Storm Sphere
+Synchronicity (UA),Enchantment T,1 Action,Touch,"Concentration, up to 1 hour","V, S",4,"Sorcerer, Warlock, Wizard",Synchronicity (UA)
+System Backdoor (UA),Transmutation T,1 Minute,Self,"Concentration, up to 1 hour","V, S, M",4,"Sorcerer, Warlock, Wizard",System Backdoor (UA)
+Vitriolic Sphere,Evocation,1 Action,150 feet,Instantaneous,"V, S, M",4,"Sorcerer, Wizard",Vitriolic Sphere
+Galder's Speedy Courier,Conjuration,1 Action,10 feet,10 minutes,"V, S, M",4,"Warlock, Wizard",Galder's Speedy Courier
+Shadow Of Moil,Necromancy,1 Action,Self,"Concentration, up to 1 minute","V, S, M",4,Warlock,Shadow Of Moil
+Summon Aberration,Conjuration,1 Action,90 feet,"Concentration, up to 1 hour","V, S, M",4,"Warlock, Wizard",Summon Aberration
+Summon Greater Demon,Conjuration,1 Action,60 Feet,"Concentration, up to 1 hour","V, S, M",4,"Warlock, Wizard",Summon Greater Demon
+Evard's Black Tentacles,Conjuration,1 Action,90 feet,"Concentration, up to 1 minute","V, S, M",4,Wizard,Evard's Black Tentacles
+Gravity Sinkhole,Evocation DG,1 Action,120 feet,Instantaneous,"V, S, M",4,Wizard,Gravity Sinkhole
+Widogast's Vault of Amber (HB),Transmutation,1 minute R,Touch,Until dispelled,"V, S, M",4,Wizard,Widogast's Vault of Amber (HB)
+Widogast's Web of Fire (HB),Evocation,1 Action,60 feet,Instantaneous,"V, S, M",4,Wizard,Widogast's Web of Fire (HB)
+Animate Objects,Transmutation,1 Action,120 feet,"Concentration, up to 1 minute","V, S",5,"Artificer, Bard, Sorcerer, Wizard",Animate Objects
+Bigby's Hand,Evocation,1 Action,120 feet,"Concentration, up to 1 minute","V, S, M",5,"Artificer, Sorcerer, Wizard",Bigby's Hand
+Create Spelljamming Helm,Transmutation,1 Action,Touch,Instantaneous,"V,S,M",5,"Artificer, Wizard",Create Spelljamming Helm
+Creation,Illusion,1 Minute,30 feet,Special,"V, S, M",5,"Artificer, Sorcerer, Wizard",Creation
+Greater Restoration,Abjuration,1 Action,Touch,Instantaneous,"V, S, M",5,"Artificer, Bard, Cleric, Druid, Ranger",Greater Restoration
+Skill Empowerment,Transmutation,1 Action,Touch,"Concentration, up to 1 hour","V, S",5,"Artificer, Bard, Sorcerer, Wizard",Skill Empowerment
+Transmute Rock,Transmutation,1 Action,120 feet,Instantaneous,"V, S, M",5,"Artificer, Druid, Wizard",Transmute Rock
+Wall of Stone,Evocation,1 Action,120 feet,"Concentration, up to 10 minutes","V, S, M",5,"Artificer, Druid, Sorcerer, Wizard",Wall of Stone
+Awaken,Transmutation,8 Hours,Touch,Instantaneous,"V, S, M",5,"Bard, Druid",Awaken
+Dominate Person,Enchantment,1 Action,60 feet,"Concentration, up to 1 minute","V, S",5,"Bard, Sorcerer, Wizard",Dominate Person
+Dream,Illusion,1 Minute,Special,8 hours,"V, S, M",5,"Bard, Warlock, Wizard",Dream
+Geas,Enchantment,1 Minute,60 feet,30 days,V,5,"Bard, Cleric, Druid, Paladin, Wizard",Geas
+Hold Monster,Enchantment,1 Action,90 feet,"Concentration, up to 1 minute","V, S, M",5,"Bard, Sorcerer, Warlock, Wizard",Hold Monster
+Legend Lore,Divination,10 Minutes,Self,Instantaneous,"V, S, M",5,"Bard, Cleric, Wizard",Legend Lore
+Mass Cure Wounds,Evocation,1 Action,60 feet,Instantaneous,"V, S",5,"Bard, Cleric, Druid",Mass Cure Wounds
+Mislead,Illusion,1 Action,Self,"Concentration, up to 1 hour",S,5,"Bard, Warlock, Wizard",Mislead
+Modify Memory,Enchantment,1 Action,30 feet,"Concentration, up to 1 minute","V, S",5,"Bard, Wizard",Modify Memory
+Planar Binding,Abjuration,1 Hour,60 feet,24 hours,"V, S, M",5,"Bard, Cleric, Druid, Warlock, Wizard",Planar Binding
+Raise Dead,Necromancy,1 Action,Touch,Instantaneous,"V, S, M",5,"Bard, Cleric, Paladin",Raise Dead
+Rary's Telepathic Bond,Divination,1 Action R,30 feet,1 hour,"V, S, M",5,"Bard, Wizard",Rary's Telepathic Bond
+Scrying,Divination,10 Minutes,Self,"Concentration, up to 10 minutes","V, S, M",5,"Bard, Cleric, Druid, Warlock, Wizard",Scrying
+Seeming,Illusion,1 Action,30 feet,8 hours,"V, S",5,"Bard, Sorcerer, Wizard",Seeming
+Synaptic Static,Enchantment,1 Action,120 feet,Instantaneous,"V, S",5,"Bard, Sorcerer, Warlock, Wizard",Synaptic Static
+Teleportation Circle,Conjuration,1 Minute,10 feet,1 round,"V, M",5,"Bard, Sorcerer, Warlock, Wizard",Teleportation Circle
+Commune,Divination,1 Minute R,Self,1 minute,"V, S, M",5,Cleric,Commune
+Contagion,Necromancy,1 Action,Touch,7 days,"V, S",5,"Cleric, Druid",Contagion
+Dawn,Evocation,1 Action,60 Feet,"Concentration, up to 1 minute","V, S, M",5,"Cleric, Wizard",Dawn
+Dispel Evil and Good,Abjuration,1 Action,Self,"Concentration, up to 1 minute","V, S, M",5,"Cleric, Paladin",Dispel Evil and Good
+Flame Strike,Evocation,1 Action,60 feet,Instantaneous,"V, S, M",5,Cleric,Flame Strike
+Hallow,Evocation,24 Hours,Touch,Until dispelled,"V, S, M",5,Cleric,Hallow
+Holy Weapon,Evocation,1 Bonus Action,Touch,"Concentration, up to 1 hour","V, S",5,"Cleric, Paladin",Holy Weapon
+Insect Plague,Conjuration,1 Action,300 feet,"Concentration, up to 10 minutes","V, S, M",5,"Cleric, Druid, Sorcerer",Insect Plague
+Summon Celestial,Conjuration,1 Action,90 feet,"Concentration, up to 1 hour","V, S, M",5,"Cleric, Paladin",Summon Celestial
+Antilife Shell,Abjuration,1 Action,Self (10-foot radius),"Concentration, up to 1 hour","V, S",5,Druid,Antilife Shell
+Commune with Nature,Divination,1 Minute R,Self,Instantaneous,"V, S",5,"Druid, Ranger",Commune with Nature
+Cone of Cold,Evocation,1 Action,Self (60-foot cone),Instantaneous,"V, S, M",5,"Druid, Sorcerer, Wizard",Cone of Cold
+Conjure Elemental,Conjuration,1 Action,90 feet,"Concentration, up to 1 hour","V, S, M",5,"Druid, Wizard",Conjure Elemental
+Control Winds,Transmutation,1 Action,300 feet,"Concentration, up to 1 hour","V, S",5,"Druid, Sorcerer, Wizard",Control Winds
+Freedom of the Winds (HB),Abjuration HB,1 action,Self,Concentration up to 10 minutes,"V, S, M",5,"Druid, Ranger, Sorcerer",Freedom of the Winds (HB)
+Maelstrom,Evocation,1 Action,120 feet,"Concentration, up to 1 minute","V, S, M",5,Druid,Maelstrom
+Reincarnate,Transmutation,1 hour,Touch,Instantaneous,"V, S, M",5,Druid,Reincarnate
+Summon Draconic Spirit,Conjuration,1 Action,60 feet,"Concentration, up to 1 hour","V, S, M",5,"Druid, Sorcerer, Wizard",Summon Draconic Spirit
+Summon Draconic Spirit (UA),Conjuration,1 Action,60 feet,"Concentration, up to 1 hour","V, S, M",5,"Druid, Sorcerer, Wizard",Summon Draconic Spirit (UA)
+Tree Stride,Conjuration,1 Action,Self,"Concentration, up to 1 minute","V, S",5,"Druid, Ranger",Tree Stride
+Wrath Of Nature,Evocation,1 Action,120 feet,"Concentration, up to 1 minute","V, S",5,"Druid, Ranger",Wrath Of Nature
+Banishing Smite,Abjuration,1 Bonus Action,Self,"Concentration, up to 1 minute",V,5,Paladin,Banishing Smite
+Circle of Power,Abjuration,1 Action,Self (30-foot radius),"Concentration, up to 10 minutes",V,5,Paladin,Circle of Power
+Destructive Wave,Evocation,1 Action,Self (30-foot radius),Instantaneous,V,5,Paladin,Destructive Wave
+Conjure Volley,Conjuration,1 Action,150 feet,Instantaneous,"V, S, M",5,Ranger,Conjure Volley
+Steel Wind Strike,Conjuration,1 Action,30 feet,Instantaneous,"S, M",5,"Ranger, Wizard",Steel Wind Strike
+Swift Quiver,Transmutation,1 Bonus Action,Touch,"Concentration, up to 1 minute","V, S, M",5,Ranger,Swift Quiver
+Cloudkill,Conjuration,1 Action,120 feet,"Concentration, up to 10 minutes","V, S",5,"Sorcerer, Wizard",Cloudkill
+Commune with City (UA),Divination T,1 Minute R,Self,Instantaneous,"V, S",5,"Sorcerer, Warlock, Wizard",Commune with City (UA)
+Conjure Vrock (UA),Conjuration,1 Action,60 feet,"Concentration, up to 1 hour","V, S, M",5,"Sorcerer, Wizard",Conjure Vrock (UA)
+Enervation,Necromancy,1 Action,60 feet,"Concentration, up to 1 minute","V, S",5,"Sorcerer, Warlock, Wizard",Enervation
+Far Step,Conjuration,1 Bonus Action,Self,"Concentration, up to 1 minute",V,5,"Sorcerer, Warlock, Wizard",Far Step
+Immolation,Evocation,1 Action,90 feet,"Concentration, up to 1 minute",V,5,"Sorcerer, Wizard",Immolation
+Shutdown (UA),Transmutation T,1 Action,120 feet,"Concentration, up to 1 minute","V, S",5,"Sorcerer, Warlock, Wizard",Shutdown (UA)
+Telekinesis,Transmutation,1 Action,60 feet,"Concentration, up to 10 minutes","V, S",5,"Sorcerer, Wizard",Telekinesis
+Wall of Light,Evocation,1 Action,120 feet,"Concentration, up to 10 minutes","V, S, M",5,"Sorcerer, Warlock, Wizard",Wall of Light
+Contact Other Plane,Divination,1 Minute R,Self,1 minute,V,5,"Warlock, Wizard",Contact Other Plane
+Danse Macabre,Necromancy,1 Action,60 Feet,"Concentration, up to 1 hour","V, S",5,"Warlock, Wizard",Danse Macabre
+Infernal Calling,Conjuration,1 Minute,90 feet,"Concentration, up to 1 hour","V, S, M",5,"Warlock, Wizard",Infernal Calling
+Negative Energy Flood,Necromancy,1 Action,60 feet,Instantaneous,"V, M",5,"Warlock, Wizard",Negative Energy Flood
+Passwall,Transmutation,1 Action,30 feet,1 hour,"V, S, M",5,Wizard,Passwall
+Temporal Shunt,Transmutation DC,1 Reaction,120 feet,1 round,"V, S",5,Wizard,Temporal Shunt
+Wall of Force,Evocation,1 Action,120 feet,"Concentration, up to 10 minutes","V, S, M",5,Wizard,Wall of Force
+Eyebite,Necromancy,1 Action,Self,"Concentration, up to 1 minute","V, S",6,"Bard, Sorcerer, Warlock, Wizard",Eyebite
+Find the Path,Divination,1 Minute,Self,"Concentration, up to 1 day","V, S, M",6,"Bard, Cleric, Druid",Find the Path
+Guards and Wards,Abjuration,10 Minutes,Touch,24 hours,"V, S, M",6,"Bard, Wizard",Guards and Wards
+Heroes' Feast,Conjuration,10 Minutes,30 feet,Instantaneous,"V, S, M",6,"Bard, Cleric, Druid",Heroes' Feast
+Mass Suggestion,Enchantment,1 Action,60 feet,24 hours,"V, M",6,"Bard, Sorcerer, Warlock, Wizard",Mass Suggestion
+Otto's Irresistible Dance,Enchantment,1 Action,30 feet,"Concentration, up to 1 minute",V,6,"Bard, Wizard",Otto's Irresistible Dance
+Programmed Illusion,Illusion,1 Action,120 feet,Until dispelled,"V, S, M",6,"Bard, Wizard",Programmed Illusion
+True Seeing,Divination,1 Action,Touch,1 hour,"V, S, M",6,"Bard, Cleric, Sorcerer, Warlock, Wizard",True Seeing
+Blade Barrier,Evocation,1 Action,90 feet,"Concentration, up to 10 minutes","V, S",6,Cleric,Blade Barrier
+Create Undead,Necromancy,1 Minute,10 feet,Instantaneous,"V, S, M",6,"Cleric, Warlock, Wizard",Create Undead
+Forbiddance,Abjuration,10 Minutes R,Touch,1 day,"V, S, M",6,Cleric,Forbiddance
+Harm,Necromancy,1 Action,60 feet,Instantaneous,"V, S",6,Cleric,Harm
+Heal,Evocation,1 Action,60 feet,Instantaneous,"V, S",6,"Cleric, Druid",Heal
+Otherworldly Form (UA),Transmutation,1 Action,Self,"Concentration, up to 1 minute","V, S, M",6,"Cleric, Sorcerer, Warlock, Wizard",Otherworldly Form (UA)
+Planar Ally,Conjuration,1 Action,60 feet,Instantaneous,"V, S",6,Cleric,Planar Ally
+Sunbeam,Evocation,1 Action,Self (60-foot line),"Concentration, up to 1 minute","V, S, M",6,"Cleric, Druid, Sorcerer, Wizard",Sunbeam
+Word of Recall,Conjuration,1 Action,5 feet,Instantaneous,V,6,Cleric,Word of Recall
+Bones of the Earth,Transmutation,1 Action,120 feet,Instantaneous,"V, S",6,Druid,Bones of the Earth
+Conjure Fey,Conjuration,1 Action,90 feet,"Concentration, up to 1 hour","V, S",6,"Druid, Warlock",Conjure Fey
+Druid Grove,Abjuration,10 Minutes,Touch,24 hours,"V, S, M",6,Druid,Druid Grove
+Flesh to Stone,Transmutation,1 Action,60 feet,"Concentration, up to 1 minute","V, S, M",6,"Druid, Sorcerer, Warlock, Wizard",Flesh to Stone
+Investiture of Flame,Transmutation,1 Action,Self,"Concentration, up to 10 minutes","V, S",6,"Druid, Sorcerer, Warlock, Wizard",Investiture of Flame
+Investiture of Ice,Transmutation,1 Action,Self,"Concentration, up to 10 minutes","V, S",6,"Druid, Sorcerer, Warlock, Wizard",Investiture of Ice
+Investiture of Stone,Transmutation,1 Action,Self,"Concentration, up to 10 minutes","V, S",6,"Druid, Sorcerer, Warlock, Wizard",Investiture of Stone
+Investiture of Wind,Transmutation,1 Action,Self,"Concentration, up to 10 minutes","V, S",6,"Druid, Sorcerer, Warlock, Wizard",Investiture of Wind
+Move Earth,Transmutation,1 Action,120 feet,"Concentration, up to 2 hours","V, S, M",6,"Druid, Sorcerer, Wizard",Move Earth
+Primordial Ward,Abjuration,1 Action,Self,"Concentration, up to 1 minute","V, S",6,Druid,Primordial Ward
+Transport via Plants,Conjuration,1 Action,10 feet,1 round,"V, S",6,Druid,Transport via Plants
+Wall of Thorns,Conjuration,1 Action,120 feet,"Concentration, up to 10 minutes","V, S, M",6,Druid,Wall of Thorns
+Wind Walk,Transmutation,1 Minute,30 feet,8 hours,"V, S, M",6,Druid,Wind Walk
+Arcane Gate,Conjuration,1 Action,500 feet,"Concentration, up to 10 minutes","V, S",6,"Sorcerer, Warlock, Wizard",Arcane Gate
+Chain Lightning,Evocation,1 Action,150 feet,Instantaneous,"V, S, M",6,"Sorcerer, Wizard",Chain Lightning
+Circle of Death,Necromancy,1 Action,150 feet,Instantaneous,"V, S, M",6,"Sorcerer, Warlock, Wizard",Circle of Death
+Disintegrate,Transmutation,1 Action,60 feet,Instantaneous,"V, S, M",6,"Sorcerer, Wizard",Disintegrate
+Fizban's Platinum Shield,Abjuration,1 Bonus Action,60ft,"Concentration, up to 1 minute","V, S, M",6,"Sorcerer, Wizard",Fizban's Platinum Shield
+Fizban's Platinum Shield (UA),Abjuration,1 Action,60 feet,"Concentration, up to 1 minute","V, S, M",6,"Sorcerer, Wizard",Fizban's Platinum Shield (UA)
+Globe of Invulnerability,Abjuration,1 Action,Self (10-foot radius),"Concentration, up to 1 minute","V, S, M",6,"Sorcerer, Wizard",Globe of Invulnerability
+Mental Prison,Illusion,1 Action,60 feet,"Concentration, up to 1 minute",S,6,"Sorcerer, Warlock, Wizard",Mental Prison
+Otiluke's Freezing Sphere,Evocation,1 Action,300 feet,Instantaneous,"V, S, M",6,"Sorcerer, Wizard",Otiluke's Freezing Sphere
+Psychic Crush (UA),Enchantment,1 Action,60 feet,1 minute,"V, S",6,"Sorcerer, Warlock, Wizard",Psychic Crush (UA)
+Scatter,Conjuration,1 Action,30 feet,Instantaneous,V,6,"Sorcerer, Warlock, Wizard",Scatter
+Tasha's Otherworldly Guise,Transmutation,1 Bonus Action,Self,"Concentration, up to 1 minute","V, S, M",6,"Sorcerer, Warlock, Wizard",Tasha's Otherworldly Guise
+Soul Cage,Necromancy,Special,60 feet,8 hours,"V, S, M",6,"Warlock, Wizard",Soul Cage
+Summon Fiend,Conjuration,1 Action,90 feet,"Concentration, up to 1 hour","V, S, M",6,"Warlock, Wizard",Summon Fiend
+Contingency,Evocation,10 Minutes,Self,10 days,"V, S, M",6,Wizard,Contingency
+Create Homunculus,Transmutation,1 Hour,120 feet,Instantaneous,"V, S, M",6,Wizard,Create Homunculus
+Drawmij's Instant Summons,Conjuration,1 Minute R,Touch,Until dispelled,"V, S, M",6,Wizard,Drawmij's Instant Summons
+Gravity Fissure,Evocation DG,1 Action,Self (100-foot line),Instantaneous,"V, S, M",6,Wizard,Gravity Fissure
+Magic Jar,Necromancy,1 Minute,Self,Until dispelled,"V, S, M",6,Wizard,Magic Jar
+Tenser's Transformation,Transmutation,1 Action,Self,"Concentration, up to 10 minutes","V, S, M",6,Wizard,Tenser's Transformation
+Wall of Ice,Evocation,1 Action,120 feet,"Concentration, up to 10 minutes","V, S, M",6,Wizard,Wall of Ice
+Widogast's Transmogrification (HB),Transmutation,1 hour,Touch,Instantaneous,"V, S, M",6,Wizard,Widogast's Transmogrification (HB)
+Dream of the Blue Veil,Conjuration,10 minutes,20 feet,6 hours,"V, S, M",7,"Bard, Sorcerer, Warlock, Wizard",Dream of the Blue Veil
+Etherealness,Transmutation,1 Action,Self,Up to 8 hours,"V, S",7,"Bard, Cleric, Sorcerer, Warlock, Wizard",Etherealness
+Forcecage,Evocation,1 Action,100 feet,1 hour,"V, S, M",7,"Bard, Warlock, Wizard",Forcecage
+Mirage Arcane,Illusion,10 Minutes,Sight,10 days,"V, S",7,"Bard, Druid, Wizard",Mirage Arcane
+Mordenkainen's Magnificent Mansion,Conjuration,1 Minute,300 feet,24 hours,"V, S, M",7,"Bard, Wizard",Mordenkainen's Magnificent Mansion
+Mordenkainen's Sword,Evocation,1 Action,60 feet,"Concentration, up to 1 minute","V, S, M",7,"Bard, Wizard",Mordenkainen's Sword
+Prismatic Spray,Evocation,1 Action,Self (60-foot cone),Instantaneous,"V, S",7,"Bard, Sorcerer, Wizard",Prismatic Spray
+Project Image,Illusion,1 Action,500 Miles,"Concentration, up to 1 day","V, S, M",7,"Bard, Wizard",Project Image
+Regenerate,Transmutation,1 Minute,Touch,1 hour,"V, S, M",7,"Bard, Cleric, Druid",Regenerate
+Resurrection,Necromancy,1 Hour,Touch,Instantaneous,"V, S, M",7,"Bard, Cleric",Resurrection
+Symbol,Abjuration,1 Minute,Touch,Until dispelled or triggered,"V, S, M",7,"Bard, Cleric, Druid, Wizard",Symbol
+Teleport,Conjuration,1 Action,10 feet,Instantaneous,V,7,"Bard, Sorcerer, Wizard",Teleport
+Conjure Celestial,Conjuration,1 Minute,90 feet,"Concentration, up to 1 hour","V, S",7,Cleric,Conjure Celestial
+Divine Word,Evocation,1 Bonus Action,30 feet,Instantaneous,V,7,Cleric,Divine Word
+Fire Storm,Evocation,1 Action,150 feet,Instantaneous,"V, S",7,"Cleric, Druid, Sorcerer",Fire Storm
+Plane Shift,Conjuration,1 Action,Touch,Instantaneous,"V, S, M",7,"Cleric, Druid, Sorcerer, Warlock, Wizard",Plane Shift
+Temple of the Gods,Conjuration,1 hour,120 feet,24 hours,"V, S, M",7,Cleric,Temple of the Gods
+Draconic Transformation,Transmutation,1 Bonus Action,Self,"Concentration, up to 1 minute","V, S, M",7,"Druid, Sorcerer, Wizard",Draconic Transformation
+Draconic Transformation (UA),Transmutation,1 Bonus Action,Self,"Concentration, up to 1 minute","V, S, M",7,"Druid, Sorcerer, Wizard",Draconic Transformation (UA)
+Reverse Gravity,Transmutation,1 Action,100 feet,"Concentration, up to 1 minute","V, S, M",7,"Druid, Sorcerer, Wizard",Reverse Gravity
+Whirlwind,Evocation,1 Action,300 feet,"Concentration, up to 1 minute","V, M",7,"Druid, Wizard",Whirlwind
+Conjure Hezrou (UA),Conjuration,1 Action,60 feet,"Concentration, up to 1 hour","V, S, M",7,"Sorcerer, Wizard",Conjure Hezrou (UA)
+Crown of Stars,Evocation,1 Action,Self,1 hour,"V, S",7,"Sorcerer, Warlock, Wizard",Crown of Stars
+Delayed Blast Fireball,Evocation,1 Action,150 feet,"Concentration, up to 1 minute","V, S, M",7,"Sorcerer, Wizard",Delayed Blast Fireball
+Finger of Death,Necromancy,1 Action,60 feet,Instantaneous,"V, S",7,"Sorcerer, Warlock, Wizard",Finger of Death
+Power Word: Pain,Enchantment,1 Action,60 feet,Instantaneous,V,7,"Sorcerer, Warlock, Wizard",Power Word: Pain
+Create Magen,Transmutation,1 Hour,Touch,Instantaneous,"V, S, M",7,Wizard,Create Magen
+Sequester,Transmutation,1 Action,Touch,Until dispelled,"V, S, M",7,Wizard,Sequester
+Simulacrum,Illusion,12 hours,Touch,Until dispelled,"V, S, M",7,Wizard,Simulacrum
+Tether Essence,Necromancy D,1 Action,60 feet,"Concentration, up to 1 hour","V, S, M",7,Wizard,Tether Essence
+Antipathy/Sympathy,Enchantment,1 Hour,60 feet,10 Days,"V, S, M",8,"Bard, Druid, Wizard",Antipathy/Sympathy
+Dominate Monster,Enchantment,1 Action,60 feet,"Concentration, up to 1 hour","V, S",8,"Bard, Sorcerer, Warlock, Wizard",Dominate Monster
+Feeblemind,Enchantment,1 Action,150 feet,Instantaneous,"V, S, M",8,"Bard, Druid, Warlock, Wizard",Feeblemind
+Glibness,Transmutation,1 Action,Self,1 hour,V,8,"Bard, Warlock",Glibness
+Mind Blank,Abjuration,1 Action,Touch,24 hours,"V, S",8,"Bard, Wizard",Mind Blank
+Power Word: Stun,Enchantment,1 Action,60 feet,Instantaneous,"V, S",8,"Bard, Sorcerer, Warlock, Wizard",Power Word: Stun
+Antimagic Field,Abjuration,1 Action,Self (10-foot radius sphere),"Concentration, up to 1 hour","V, S, M",8,"Cleric, Wizard",Antimagic Field
+Control Weather,Transmutation,10 Minutes,Self (5 mile radius),"Concentration, Up to 8 hours","V, S, M",8,"Cleric, Druid, Wizard",Control Weather
+Earthquake,Evocation,1 Action,500 feet,"Concentration, up to 1 minute","V, S, M",8,"Cleric, Druid, Sorcerer",Earthquake
+Holy Aura,Abjuration,1 Action,Self,"Concentration, up to 1 minute","V, S, M",8,Cleric,Holy Aura
+Sunburst,Evocation,1 Action,150 feet,Instantaneous,"V, S, M",8,"Cleric, Druid, Sorcerer, Wizard",Sunburst
+Animal Shapes,Transmutation,1 Action,30 feet,"Concentration, up to 24 hours","V, S",8,Druid,Animal Shapes
+Incendiary Cloud,Conjuration,1 Action,150 feet,"Concentration, up to 1 minute","V, S",8,"Druid, Sorcerer, Wizard",Incendiary Cloud
+Tsunami,Conjuration,1 Action,Sight,"Concentration, up to 6 rounds","V, S",8,Druid,Tsunami
+Abi-Dalzim's Horrid Wilting,Necromancy,1 Action,150 feet,Instantaneous,"V, S, M",8,"Sorcerer, Wizard",Abi-Dalzim's Horrid Wilting
+Demiplane,Conjuration,1 Action,60 feet,1 hour,S,8,"Sorcerer, Warlock, Wizard",Demiplane
+Maddening Darkness,Evocation,1 Action,150 feet,"Concentration, up to 10 minutes","V, M",8,"Warlock, Wizard",Maddening Darkness
+Clone,Necromancy,1 Hour,Touch,Instantaneous,"V, S, M",8,Wizard,Clone
+Dark Star,Evocation DG,1 Action,150 Feet,"Concentration, up to 1 minute","V, S, M",8,Wizard,Dark Star
+Illusory Dragon,Illusion,1 Action,120 feet,"Concentration, up to 1 minute",S,8,Wizard,Illusory Dragon
+Maze,Conjuration,1 Action,60 feet,"Concentration, up to 10 minutes","V, S",8,Wizard,Maze
+Mighty Fortress,Conjuration,1 Minute,1 mile,Instantaneous,"V, S, M",8,Wizard,Mighty Fortress
+Reality Break,Conjuration DC,1 Action,60 feet,"Concentration, up to 1 minute","V, S, M",8,Wizard,Reality Break
+Telepathy,Evocation,1 Action,Unlimited,24 hours,"V, S, M",8,Wizard,Telepathy
+Foresight,Divination,1 Minute,Touch,8 hours,"V, S, M",9,"Bard, Druid, Warlock, Wizard",Foresight
+Mass Polymorph,Transmutation,1 Action,120 feet,"Concentration, up to 1 hour","V, S, M",9,"Bard, Sorcerer, Wizard",Mass Polymorph
+Power Word: Heal,Evocation,1 Action,Touch,Instantaneous,"V, S",9,"Bard, Cleric",Power Word: Heal
+Power Word: Kill,Enchantment,1 Action,60 feet,Instantaneous,V,9,"Bard, Sorcerer, Warlock, Wizard",Power Word: Kill
+Prismatic Wall,Abjuration,1 Action,60 feet,10 minutes,"V, S",9,"Bard, Wizard",Prismatic Wall
+Psychic Scream,Enchantment,1 Action,90 feet,Instantaneous,S,9,"Bard, Sorcerer, Warlock, Wizard",Psychic Scream
+True Polymorph,Transmutation,1 Action,30 feet,"Concentration, up to 1 hour","V, S, M",9,"Bard, Warlock, Wizard",True Polymorph
+Astral Projection,Evocation,1 Hour,10 feet,Special,"V, S, M",9,"Cleric, Warlock, Wizard",Astral Projection
+Gate,Conjuration,1 Action,60 feet,"Concentration, up to 1 minute","V, S, M",9,"Cleric, Sorcerer, Warlock, Wizard",Gate
+Mass Heal,Evocation,1 Action,60 feet,Instantaneous,"V, S",9,Cleric,Mass Heal
+True Resurrection,Necromancy,1 Hour,Touch,Instantaneous,"V, S, M",9,"Cleric, Druid",True Resurrection
+Shapechange,Transmutation,1 Action,Self,"Concentration, up to 1 hour","V, S, M",9,"Druid, Wizard",Shapechange
+Storm of Vengeance,Conjuration,1 Action,Sight,Concentration up to 1 minute,"V, S",9,Druid,Storm of Vengeance
+Blade of Disaster,Conjuration,1 Bonus Action,60 feet,"Concentration, up to 1 minute","V, S",9,"Sorcerer, Warlock, Wizard",Blade of Disaster
+Meteor Swarm,Evocation,1 Action,1 mile,Instantaneous,"V, S",9,"Sorcerer, Wizard",Meteor Swarm
+Time Stop,Transmutation,1 Action,Self,Instantaneous,V,9,"Sorcerer, Wizard",Time Stop
+Wish,Conjuration,1 Action,Self,Instantaneous,V,9,"Sorcerer, Wizard",Wish
+Imprisonment,Abjuration,1 Minute,30 feet,Until dispelled,"V, S, M",9,"Warlock, Wizard",Imprisonment
+Weird,Illusion,1 Action,120 feet,"Concentration, up to 1 minute","V, S",9,"Warlock, Wizard",Weird
+Invulnerability,Abjuration,1 Action,Self,"Concentration, up to 10 minutes","V, S, M",9,Wizard,Invulnerability
+Ravenous Void,Evocation DG,1 Action,"1,000 feet","Concentration, up to 1 minute","V, S, M",9,Wizard,Ravenous Void
+Time Ravage,Necromancy DC,1 Action,90 feet,Instantaneous,"V, S, M",9,Wizard,Time Ravage

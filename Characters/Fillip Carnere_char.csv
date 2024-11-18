@@ -1,0 +1,23 @@
+name,Fillip Carnere
+characterClass,Bard
+subclass,College Of Creation
+background,NA
+race,NA
+allignment,NA
+exp,0
+level,5
+strength,11
+dexterity,14
+constitution,12
+intelligence,9
+wisdom,10
+charisma,20
+expertise,Perception,Persuasion,Religion
+proficient,Deception,Perception,Performance,Persuasion,Religion
+joat,1
+currentHP,33
+tempHP,0
+money,7,8,0,0,1
+spellSlots,4,3,2,0,0,0,0,0,0
+spells,Light,Message,Mage Hand,Faerie Fire,Healing Word,Silvery Barbs,Tashas Hideous Laughter,Invisibility,Suggestion,Hold Person
+xtraSaves

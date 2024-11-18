@@ -1,0 +1,21 @@
+name,Dirty Dan
+characterClass,Rogue
+subclass,Phantom
+background,NA
+race,NA
+allignment,NA
+exp,0
+level,10
+strength,11
+dexterity,20
+constitution,19
+intelligence,8
+wisdom,8
+charisma,10
+expertise,Acrobatics,Deception,Perception,Stealth
+proficient,Acrobatics,Deception,Perception,Stealth,Sleight of Hand
+joat,0
+currentHP,77
+tempHP,0
+money,6,9,0,1587,0
+spellSlots,0,0,0,0,0,0,0,0,0
