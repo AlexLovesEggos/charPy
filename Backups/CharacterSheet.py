@@ -67,7 +67,49 @@ def clearScreen():
     #else:
     #    _ = os.system('clear')
 def showClassic():
-    cp.Character.classicConsole
+    print(f'''
+ CLASSIC CHARACTER SHEET
+#=====================#=======================#=====================#
+# {ss(character.name,19,False)} # {ss("Proficiency Bonus",18,False)}{ss(pos(character.proficiencyBonus),3)} # Armor Class         #
+# Level {ss(ss(character.level,2),14,False)}# {ss("Inspiration",21,False)} # Max HP          {ss(character.hitpointMax,3)} #
+# {ss(character.charclass,20,False)}# {ss("Initiative",21,False)} # Current HP      {ss(character.currentHP,3)} #
+# {ss(character.subclass,20,False)}#=======================# Temp HP         {ss(character.tempHP,3)} #
+#=====================# {ss("SAVING THROWS",21,False)} # Hitdie              # 
+# Strength      {ss(character.strength)} {ss(pos(character.modifiers['str']))} # {ss("Strength",18,False)}{ss(pos(character.proficiencyBonus+character.modifiers['str']),3)} #=====================# 
+# Dexterity     {ss(character.dexterity)} {ss(pos(character.modifiers['dex']))} # {ss("Dexterity",18,False)}{ss(pos(character.proficiencyBonus+character.modifiers['dex']),3)} # DEATH SAVES         #
+# Constitution  {ss(character.constitution)} {ss(pos(character.modifiers['con']))} # {ss("Constitution",18,False)}{ss(pos(character.proficiencyBonus+character.modifiers['con']),3)} # Successes [ ][ ][ ] #
+# Intelligence  {ss(character.intelligence)} {ss(pos(character.modifiers['int']))} # {ss("Intelligence",18,False)}{ss(pos(character.proficiencyBonus+character.modifiers['int']),3)} # Failures  [ ][ ][ ] #
+# Wisdom        {ss(character.wisdom)} {ss(pos(character.modifiers['wis']))} # {ss("Wisdom",18,False)}{ss(pos(character.proficiencyBonus+character.modifiers['wis']),3)} #=====================# 
+# Charisma      {ss(character.charisma)} {ss(pos(character.modifiers['cha']))} # {ss("Charisma",18,False)}{ss(pos(character.proficiencyBonus+character.modifiers['cha']),3)} #
+#=====================#=======================#=====================#
+# Passive       {ss(character.passivePerception,2)}    # {ss("SKILLS",21,False)} #                     #
+# Perception          # {ss("Acrobatics",18,False)}{ss(pos(character.skills["Acrobatics"]),3)} #                     #
+#=====================# {ss("Animal Handling",18,False)}{ss(pos(character.skills["Animal Handling"]),3)} #                     #
+# {ss("MONEY",19,False)} # {ss("Arcana",18,False)}{ss(pos(character.skills["Arcana"]),3)} #                     #
+# {ss("Copper(cp)",12,False)} {ss("0",6)} # {ss("Athletics",18,False)}{ss(pos(character.skills["Athletics"]),3)} #                     #
+# {ss("Silver(sp)",12,False)} {ss("0",6)} # {ss("Deception",18,False)}{ss(pos(character.skills["Deception"]),3)} #                     #
+# {ss("Electrum(ep)",12,False)} {ss("0",6)} # {ss("History",18,False)}{ss(pos(character.skills["History"]),3)} #                     #
+# {ss("Gold(gp)",12,False)} {ss("0",6)} # {ss("Insight",18,False)}{ss(pos(character.skills["Insight"]),3)} #                     #
+# {ss("Platinum(pp)",12,False)} {ss("0",6)} # {ss("Intimidation",18,False)}{ss(pos(character.skills["Intimidation"]),3)} #                     #
+#=====================# {ss("Investigation",18,False)}{ss(pos(character.skills["Investigation"]),3)} #                     #
+# {ss("",19)} # {ss("Medicine",18,False)}{ss(pos(character.skills["Medicine"]),3)} #                     #
+# {ss("",19)} # {ss("Nature",18,False)}{ss(pos(character.skills["Nature"]),3)} #                     #
+# {ss("",19)} # {ss("Perception",18,False)}{ss(pos(character.skills["Perception"]),3)} #                     #
+# {ss("",19)} # {ss("Performance",18,False)}{ss(pos(character.skills["Performance"]),3)} #                     #
+# {ss("",19)} # {ss("Persuasion",18,False)}{ss(pos(character.skills["Persuasion"]),3)} #                     #
+# {ss("",19)} # {ss("Religion",18,False)}{ss(pos(character.skills["Religion"]),3)} #                     #
+# {ss("",19)} # {ss("Sleight of Hand",18,False)}{ss(pos(character.skills["Sleight of Hand"]),3)} #                     #
+# {ss("",19)} # {ss("Stealth",18,False)}{ss(pos(character.skills["Stealth"]),3)} #                     #
+# {ss("",19)} # {ss("Survival",18,False)}{ss(pos(character.skills["Survival"]),3)} #                     #
+#=====================#=====================#=====================#
+# Total Spell Slots
+# {character.totalSlots}
+# Available Spell Slots
+# {character.spellSlots}
+#=====================#=====================#=====================#
+#{character.hitdie}
+#{character.hitpointMax}
+              ''')
 #Get characters
 characterList = os.listdir('./Characters')
 #Create a character or quit the program    
@@ -81,12 +123,6 @@ print('Type your character name or "new" to create a new character')
 print(characterNames)
 #Test Area
 
-spellsList = cp.readCsv('./Stats/Spells.csv')
-print(np.shape(spellsList))
-spellNames = [i[0] for i in spellsList]
-spells = ['Mage Hand','Light']
-spellStats = [i for i in [spellsList in spells]]
-print(spellStats)
 
 
 #Back to everythn else
@@ -109,21 +145,12 @@ while active == True:
             active = False
             print(f'Character "{character.name}" loaded!')
 
-print('''
-use "show" to show the classic character sheet,
-other helpful commands can be found by using "help"''')
 active = True
 show = False
-spells = False
 while active == True:
     response = input('> ')
     if response == 'show':
         show = True
-        spells = False
-    elif response.lower() == 'spells':
-        spells = True
-        show = False
-        
     if response[0:8] == 'hit for ':
         if (character.currentHP - int(response[8:])) < 0:
             character.currentHP = 0
@@ -180,14 +207,10 @@ while active == True:
         character.currentHP = character.hitpointMax
         character.tempHP = 0
         character.updateAll()
-    elif response.lower() == 'test':
-        print('Charisma'+character.pS('cha'))
     if show == True:
         clearScreen()
-        character.classicConsole()
-    if spells == True:
-        clearScreen()
-        character.showSpells()   
+        showClassic()
+        
         
 #sys.exit("Exiting")
 

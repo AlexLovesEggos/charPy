@@ -1,10 +1,9 @@
 import csv
-import numpy as np
 
 classes = {
     'Artificer':[8,'int',['int'],'half'],
     'Barbarian':[12,'str',['str','con'],'non'],
-    'Bard':[8,'cha',['cha','dex'],'full'],
+    'Bard':[8,'cha',['cha'],'full'],
     'Cleric':[8,'wis',['wis'],'full'],
     'Druid':[8,'wis',['wis'],'full'],
     'Fighter':[10,'int',['int'],'non'],
@@ -13,8 +12,8 @@ classes = {
     'Ranger':[10,'wis'],
     'Rogue':[8,'int'],
     'Sorcerer':[6,'cha'],
-    'Warlock':[8,'cha',['cha'],'non'],
-    'Wizard':[6,'int',['int'],'full']
+    'Warlock':[8,'cha'],
+    'Wizard:':[6,'int'],
     }
 
 def readCsv(filepath,rowHeaders = False,colNames = False):
@@ -46,34 +45,7 @@ def readCsv(filepath,rowHeaders = False,colNames = False):
             return rows
         except:
             return -1
-
-def pStr(val):
-    if val > 0:
-        val = "+"+str(val)
-        return val
-    if val == 0:
-        return ' 0'
-    else:
-        return val
-
-def it(head,val='',val2='',totsp = 22, buffer = True, lftbuf = False):
-    totsp = totsp-1
-    ret = ""
-    val = str(val)
-    head = str(head)
-    if val2 != '':
-        val2 = str(val2)
-        val = val + ' ' + val2
-    vallen = len(val)
-    headlen = len(head)
-    if buffer == True:
-        ret = ' ' + head + (' ' * (totsp-headlen-vallen-1)) + val + ' '
-    else:
-        ret = head + (' ' * (totsp-headlen-vallen+1))+val
-    if lftbuf == True:
-        ret = "#"+ret
-    return ret
-
+        
 class Character:
     #Factories?
     def updateAll(self):
@@ -100,8 +72,7 @@ class Character:
             ['tempHP',self.tempHP],
             ['money',*self.money],
             ['spellSlots',*self.spellSlots],
-            ['spells',*self.spells],
-            ['xtraSaves',*self.xtraSaves]]
+            ['spells',*self.spells]]
         #print(rows)
         with open(f'./Characters/{self.name}_char.csv', 'w') as csvfile:
             # creating a csv writer object
@@ -112,124 +83,6 @@ class Character:
 
     def readAll(self):
         print(self)
-
-    def classicConsole(self,space=22):
-        print('Hooo')
-        cols = []
-        rowSep = "="*space
-        #SETUP THE FIRST COLUMN
-        col1 = [rowSep]
-        [col1.append(i) for i in [
-            it(self.name),
-            it('Level ' + str(self.level)),
-            it(self.charclass),
-            it(self.subclass),
-            rowSep]]
-        for i in range(6):
-            l = it(self.abilityNames[i],self.abilityScores[i],pStr(self.modifiers[self.abilityTags[i]]))
-            col1.append(l)
-        [col1.append(i) for i in [
-            rowSep,
-            it('Passive',self.passivePerception),
-            it('Perception'),
-            rowSep]]
-        for i in range(5):
-            l = it(self.moneyNames[i],self.money[i])
-            col1.append(l)
-        col1.append(rowSep)
-        col1.append(it('SPELL SLOTS'))
-        for i in range(1,10):
-            l = it('Level '+str(i),str(self.spellSlots[i-1]+'/'+str(self.totalSlots[i-1])))
-            col1.append(l)
-        cols.append(col1)
-        
-        #SETUP COL 2
-        col2 = [rowSep]
-        col2.append(it('Proficiency Bonus',pStr(self.proficiencyBonus)))
-        col2.append(it('Inspiration'))
-        col2.append(it('Initiative'))
-        col2.append(rowSep)
-        col2.append(it('SAVING THROWS'))
-        for i in range(6):
-            s = self.abilityNames[i]
-            l = it(s)
-            col2.append(l)
-
-        col2.append(rowSep)
-        col2.append(it('SKILLS'))    
-        for i in range(len(self.skillsList)):
-            s = self.skillsList[i]
-            sAdj = s+self.pS(s)
-            l = it(sAdj,pStr(self.skills[s]))
-            col2.append(l)
-        
-        cols.append(col2)
-
-        #SETUP COL 3
-        col3 = [rowSep]
-        [col3.append(i) for i in [
-            it('Armor Class'),
-            it('Max HP',self.hitpointMax),
-            it('Current HP',self.currentHP),
-            it('Temp HP',self.tempHP),
-            it('Hitdie'),
-            rowSep,
-            it('DEATH SAVES'),
-            it('Success'),
-            it('Failure'),
-            rowSep]]
-        cols.append(col3)
-
-        
-        colLens = [len(i) for i in cols]
-        height = max(colLens)
-        
-        for col in cols:
-            colLen = len(col)
-            if colLen < height:
-                for i in range(height - colLen):
-                    col.append(' '*space)
-
-        for i in range(height):
-            s = "#"
-            for x in cols:
-                s = s+str(x[i])+"#"
-            print(s)
-
-        s = "#"   
-        for x in cols:
-            
-            s = s+str(x[0])+"#"
-        print(s)
-        
-    def showSpells(self,space=22):
-        rowSep = '#'+("="*space)+'#'
-        print(rowSep)
-        print('Cantrips')
-        print(rowSep)
-        [print('# ' + spell[0]) for spell in self.spellStats if int(spell[6]) == 0]
-        
-        for level in range(1,10):
-            print(rowSep)
-            print('# Level ' + str(level) + ' Spells #')
-            [print('# ' + spell[0]) for spell in self.spellStats if int(spell[6]) == int(level)]
-
-    def pS(self,name):
-        #GET PROFICIENCY STARS
-        saves = ['str','cha','int','wis','dex','con']
-        if name in saves:
-            if name in self.saveProficiency:
-                return '*'
-            else:
-                return ''
-        else:
-            if name in self.expertise:
-                return '**'
-            elif name in self.proficient:
-                return '*'
-            else:
-                return ''
-        
 
     @staticmethod
     def createCharacter(       
@@ -254,8 +107,7 @@ class Character:
         tempHP = 0,
         money = [0,0,0,0,0],
         spellSlots = [0,0,0,0,0,0,0,0,0],
-        spells = [],
-        xtraSaves = []):
+        spels = []):
 
         print(f'Created new blank character')
 
@@ -284,8 +136,7 @@ class Character:
         tempHP,
         money,
         spellSlots,
-        spells,
-        xtraSaves)
+        spells)
 
         
         character.updateAll()
@@ -352,8 +203,7 @@ class Character:
         tempHP,
         money,
         spellSlots,
-        spells,
-        xtraSaves):
+        spells):
         
         #===== Self Input Stats =====
         #Qualitative Traits
@@ -373,9 +223,7 @@ class Character:
         self.intelligence = intelligence
         self.wisdom = wisdom
         self.charisma = charisma
-        self.abilityScores = [strength,dexterity,constitution,intelligence,wisdom,charisma]
-        self.abilityNames = ['Strength','Dexterity','Constitution','Intelligence','Wisdom','Charisma']
-        self.abilityTags = ['str','dex','con','int','wis','cha']
+        self.abilityScores = []
         #Expertise and Proficiency
         self.expertise = expertise
         self.proficient = proficient
@@ -384,36 +232,14 @@ class Character:
         self.currentHP = currentHP
         self.tempHP = tempHP
         
-        self.money = money
-        self.moneyNames = ["Copper(cp)","Silver(cp)","Electrum(ep)","Gold(gp)","Platinum(pp)"]
-            
+        self.money = money #DICT
         #self.inventory = inventory #maybe dictionary
         #self.weaponProficiencies = weaponProficiencies
         #self.otherProficiencies = otherProficiencies
         #self.weapons = weapons #DICT DIC DMG PROF ETC FINNESE
         self.spellSlots = spellSlots
-        
-        #CREATE SPELLS DICTIONARY FROM GIVEN SPELLS
-        self.spellStats = []
         self.spells = spells
-        self.xtraSaves = xtraSaves
-        print('egg')
-        if len(spells) > 0:
-            spellList = readCsv('./Stats/Spells.csv')
-            spellNames = [i[0] for i in spellList]
-            self.spellStats = []
-            for spell in spells:
-                try:
-                    i = spellNames.index(spell)
-                    self.spellStats.append(spellList[i])
-                    #print(self.spellStats)
-                except:
-                    print(f'Spell ERROR, "{spell}" not found, could it be spelled wrong?')
-        self.spellLevels = {}
-        for l in range(0,10):
-            print(l)
-        print('Spells Loaded')
-        print(self.spellStats)
+        print(self.spells)
         
         #==== Calculated Values =====
         self.proficiencyBonus = 2 + int((self.level-1)/4)
@@ -447,62 +273,34 @@ class Character:
             "Stealth":(self.modifiers["dex"]),
             "Survival":(self.modifiers["wis"]),
             }
-        self.skillsList = list(self.skills.keys())
-        print('Skills Loaded')
+        skillsList = list(self.skills.keys())
         #Add expertise and proficiency bonuses
         if(len(self.proficient)>0):
             for proficiency in self.proficient:
                 self.skills[proficiency] = self.skills[proficiency] + self.proficiencyBonus
         if self.joat > 0:
-            print('JOAT')
-            nonProficient = [x for x in self.skillsList if x not in self.proficient]
+            #print('JOAT')
+            nonProficient = [x for x in skillsList if x not in self.proficient]
             for proficiency in nonProficient:
                 self.skills[proficiency] = self.skills[proficiency] + int(self.proficiencyBonus*.5)       
         if(len(self.expertise)>0):       
             for expertise in self.expertise:
                 self.skills[expertise] = self.skills[expertise] + self.proficiencyBonus
-        print('Skills and Proficiencies Loaded')
-        #Saving Throws
-        #Needs to save to sheet unforunately
-
-        self.saves = {
-            'str':self.modifiers['str'],
-            'dex':self.modifiers['dex'],
-            'con':self.modifiers['con'],
-            'int':self.modifiers['int'],
-            'wis':self.modifiers['wis'],
-            'cha':self.modifiers['cha']}
-
-        self.saveProficiency = classes[self.charclass][2]
-        
-        if len(self.xtraSaves) > 0:
-            self.saveProficiency.extend(self.xtraSaves)
-        
-        for save in self.saveProficiency:
-            self.saves[save] = self.saves[save] + self.proficiencyBonus
-        print('Saves Loaded')
-        #FORMAT ALL SKILLS BC THIS SUCKS LMAO
-        sLen = 22
-            
-        
-        
         #Initiative
         self.initiative = self.modifiers["dex"]
         #Hitpoints and Hitdie
         if self.charclass != 'NA':
-            print('Character Class Set')
             self.hitdie = classes[self.charclass][0]
             print('e')
             self.hitpointMax = (self.hitdie + self.modifiers["con"]) + ((self.level-1) * (int(.5 * self.hitdie)+self.modifiers["con"]+1))
         else:
             self.hitdie = 0
             self.hitpointMax = 0
-        print('Hitpoints Calculated')
         self.passivePerception = 10 + self.proficiencyBonus + self.skills['Perception']
-        
+
         #SPELL HELL SPELL HELL SPELL HELLLLLLLLLLLLL
         if classes[self.charclass][3] == 'full':
-            self.totalSlots = readCsv('./Stats/FullCaster.csv')[self.level-1]
+            self.totalSlots = readCsv('./Stats/FullCaster.csv')[self.level]
             #print(self.totalSlots)
 
             
@@ -520,9 +318,7 @@ def getSpellSlots(level,castType):
         print('hella')
         
         
-
-#pyper = Character.loadCharacter('Fillip Carnere')
-#print(pyper)
-#pyper.classicConsole()
+#pyper = Character.createCharacter('Pyper')
+#pyper = Character.loadCharacter('Pyper')
 #print(toad.level,toad.dexterity)
 #print(list(pyper.skills.keys())
